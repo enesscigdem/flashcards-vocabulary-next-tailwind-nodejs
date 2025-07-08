@@ -8,29 +8,46 @@ import { Volume2, Check, X, Sun, Moon } from 'lucide-react';
 import { ProgressCircle } from './ProgressCircle';
 
 export default function FlashcardViewer() {
-  const { filteredCards, currentIndex, next, prev, markLearned, setFilter, filter } = useFlashcards();
+  const {
+    filteredCards,
+    currentIndex,
+    next,
+    prev,
+    markLearned,
+    setFilter,
+    filter
+  } = useFlashcards();
   const card = filteredCards[currentIndex];
   const { speak, isSupported, isSpeaking } = useSpeech();
   const [flipped, setFlipped] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
+  // Swipe: right → next, left → prev
   const swipe = useSwipe({
-    onSwipeLeft: () => prev(),
-    onSwipeRight: () => { if (card) markLearned(card.id); next(); }
+    onSwipeLeft: () => next(),
+    onSwipeRight:  () => prev()
   });
 
   useEffect(() => setFlipped(false), [card]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
-      if (e.key === 'ArrowRight') { if (card) markLearned(card.id); next(); }
-      if (e.key === 'ArrowLeft') prev();
-      if (e.key === 'Enter') setFlipped(f => !f);
-      if (e.key === ' ') { e.preventDefault(); if (card && isSupported) speak(card.term); }
+      if (e.key === 'ArrowRight') next();
+      if (e.key === 'ArrowLeft')  prev();
+      if (e.key === 'Enter')      setFlipped(f => !f);
+      if (e.key === ' ') {
+        e.preventDefault();
+        if (!card || !isSupported) return;
+        // if flipped, speak example; otherwise term
+        const text = flipped && card.example
+            ? card.example
+            : card.term;
+        speak(text);
+      }
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [card, next, prev, markLearned, isSupported, speak]);
+  }, [card, flipped, next, prev, isSupported, speak]);
 
   if (!card) {
     return <div className="min-h-screen flex items-center justify-center">Yükleniyor...</div>;
@@ -39,13 +56,19 @@ export default function FlashcardViewer() {
   return (
       <div
           className={`min-h-screen flex items-center justify-center transition-colors ${
-              darkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700\n'
+              darkMode
+                  ? 'bg-gray-900'
+                  : 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700'
           }`}
           {...swipe}
       >
         {/* Theme Toggle */}
         <div className="absolute top-4 right-4">
-          <button onClick={() => setDarkMode(d => !d)} aria-label="Toggle theme" className="p-2 rounded-full bg-white/20">
+          <button
+              onClick={() => setDarkMode(d => !d)}
+              aria-label="Toggle theme"
+              className="p-2 rounded-full bg-white/20"
+          >
             {darkMode ? <Sun className="text-yellow-300" /> : <Moon className="text-gray-800" />}
           </button>
         </div>
@@ -56,7 +79,7 @@ export default function FlashcardViewer() {
             {/* Filters */}
             <div className="flex space-x-2 mb-4">
               {[
-                { val: 'all', label: 'Tümü' },
+                { val: 'all',     label: 'Tümü' },
                 { val: 'learned', label: 'Öğrendiklerim' },
                 { val: 'toLearn', label: 'Öğrenmediklerim' }
               ].map(({ val, label }) => (
@@ -109,7 +132,11 @@ export default function FlashcardViewer() {
                     className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center"
                     style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
                 >
-                  {card.example && <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'} text-sm`}>{card.example}</p>}
+                  {card.example && (
+                      <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'} text-sm`}>
+                        {card.example}
+                      </p>
+                  )}
                   {card.exampleTranslation && (
                       <p className={`${darkMode ? 'text-gray-400' : 'text-gray-500'} text-sm mt-2`}>
                         {card.exampleTranslation}
@@ -121,14 +148,40 @@ export default function FlashcardViewer() {
 
             {/* Controls */}
             <div className="flex items-center justify-between">
-              <button onClick={() => prev()} className="p-3 rounded-full transition-colors" aria-label="Yanlış">
+              <button
+                  onClick={() => prev()}
+                  className="p-3 rounded-full transition-colors"
+                  aria-label="Önceki"
+              >
                 <X className={`${darkMode ? 'text-gray-200' : 'text-gray-700'} w-5 h-5`} />
               </button>
-              <button onClick={() => isSupported && speak(card.term)} className="relative p-4" aria-label={`Ses: ${card.term}`}>
-                <ProgressCircle progress={(currentIndex + 1) / filteredCards.length} playing={isSpeaking} />
-                <Volume2 className={`absolute inset-0 m-auto w-5 h-5 ${darkMode ? 'text-gray-200' : 'text-gray-700'}`} />
+              <button
+                  onClick={() => {
+                    if (!card || !isSupported) return;
+                    const text = flipped && card.example ? card.example : card.term;
+                    speak(text);
+                  }}
+                  className="relative p-4"
+                  aria-label="Ses"
+              >
+                <ProgressCircle
+                    progress={(currentIndex + 1) / filteredCards.length}
+                    playing={isSpeaking}
+                />
+                <Volume2
+                    className={`absolute inset-0 m-auto w-5 h-5 ${
+                        darkMode ? 'text-gray-200' : 'text-gray-700'
+                    }`}
+                />
               </button>
-              <button onClick={() => { markLearned(card.id); next(); }} className="p-3 rounded-full transition-colors" aria-label="Doğru">
+              <button
+                  onClick={() => {
+                    markLearned(card.id);
+                    next();
+                  }}
+                  className="p-3 rounded-full transition-colors"
+                  aria-label="Öğrendi"
+              >
                 <Check className={`${darkMode ? 'text-gray-200' : 'text-gray-700'} w-5 h-5`} />
               </button>
             </div>

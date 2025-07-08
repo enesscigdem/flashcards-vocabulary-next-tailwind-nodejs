@@ -19,22 +19,27 @@ export default function FlashcardApp() {
   const [flashcards, setFlashcards] = useState<Flashcard[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [direction, setDirection] = useState(0)
+  const currentCard = flashcards[currentIndex]
+
   const { speak, isSupported } = useSpeech()
+  const swipeHandlers = useSwipe({
+    onSwipeLeft: () => changeCard(1),
+    onSwipeRight: () => changeCard(-1),
+  })
 
   useEffect(() => {
     fetch("http://localhost:4000/api/words")
-      .then((res) => res.json())
-      .then((data: Flashcard[]) => setFlashcards(data))
-      .catch((err) => console.error("Error fetching words:", err))
+        .then((res) => res.json())
+        .then((data: Flashcard[]) => setFlashcards(data))
+        .catch((err) => console.error(err))
   }, [])
 
-  const currentCard = flashcards[currentIndex]
-
+  // Sonra: conditional return ve event handler’lar
   if (flashcards.length === 0) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        Loading...
-      </div>
+        <div className="min-h-screen flex items-center justify-center">
+          Loading...
+        </div>
     )
   }
 
@@ -55,12 +60,7 @@ export default function FlashcardApp() {
       speak(currentCard.term)
     }
   }
-
-  const swipeHandlers = useSwipe({
-    onSwipeLeft: nextCard,
-    onSwipeRight: prevCard,
-  })
-
+  
   const slideVariants = {
     enter: (direction: number) => ({
       x: direction > 0 ? 300 : -300,

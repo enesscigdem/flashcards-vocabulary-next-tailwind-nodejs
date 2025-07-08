@@ -1,22 +1,18 @@
+// next.config.js
+const dev = process.env.NODE_ENV !== 'production';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
   async rewrites() {
     return [
       {
-        source: '/api/:path*',                 // Tarayıcıdan /api/… istekleri
-        destination: 'http://localhost:4000/api/:path*' // Express sunucunuza yönlensin
+        source: '/api/:path*',
+        destination: dev
+            ? 'http://localhost:4000/api/:path*'
+            : '/api/:path*'
       }
     ]
   }
 }
 
-export default nextConfig
+export default nextConfig;

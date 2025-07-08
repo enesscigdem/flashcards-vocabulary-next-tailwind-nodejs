@@ -2,6 +2,8 @@
 "use client";
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
 
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || ""; // Örn: https://myapp.vercel.app
+
 export interface Flashcard {
   id: number;
   term: string;
@@ -38,22 +40,22 @@ export const FlashcardProvider = ({ children }: { children: React.ReactNode }) =
   const [currentIndex, setCurrentIndex] = useState(0);
   const [filter, setFilter] = useState<Filter>("all");
 
-  // Load all words with learned flag
+  // 1) Kelimeleri yükle
   useEffect(() => {
-    fetch("http://localhost:4000/api/words")
+    fetch(`${API_BASE}/api/words`)
         .then(res => res.json())
         .then((data: Flashcard[]) => setCards(data))
         .catch(console.error);
   }, []);
 
-  // Filtered list
+  // 2) Filtre uygulanmış liste
   const filteredCards = useMemo(() => {
     if (filter === "learned") return cards.filter(c => c.learned);
     if (filter === "toLearn") return cards.filter(c => !c.learned);
     return cards;
   }, [cards, filter]);
 
-  // Reset index on filter change
+  // 3) Filtre değişince index sıfırla
   useEffect(() => setCurrentIndex(0), [filter, filteredCards.length]);
 
   const clamp = (i: number) =>
@@ -61,12 +63,10 @@ export const FlashcardProvider = ({ children }: { children: React.ReactNode }) =
   const next = () => setCurrentIndex(i => clamp(i + 1));
   const prev = () => setCurrentIndex(i => clamp(i - 1));
 
-  // Mark as learned in backend and update state
+  // 4) Öğrenildi olarak işaretle
   const markLearned = async (id: number) => {
-    await fetch(`http://localhost:4000/api/words/${id}/learn`, { method: "POST" });
-    setCards(prev =>
-        prev.map(c => (c.id === id ? { ...c, learned: true } : c))
-    );
+    await fetch(`${API_BASE}/api/words/${id}/learn`, { method: "POST" });
+    setCards(prev => prev.map(c => (c.id === id ? { ...c, learned: true } : c)));
   };
 
   return (

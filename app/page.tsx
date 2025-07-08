@@ -27,6 +27,22 @@ export default function FlashcardApp() {
     onSwipeRight: () => changeCard(-1),
   })
 
+  const changeCard = (step: number) => {
+    if (step > 0) {
+      nextCard()
+    } else {
+      prevCard()
+    }
+  }
+
+  const handleDragEnd = (_: any, info: { offset: { x: number } }) => {
+    if (info.offset.x < -100) {
+      changeCard(1)
+    } else if (info.offset.x > 100) {
+      changeCard(-1)
+    }
+  }
+
   useEffect(() => {
     fetch("http://localhost:4000/api/words")
         .then((res) => res.json())
@@ -65,7 +81,7 @@ export default function FlashcardApp() {
     enter: (direction: number) => ({
       x: direction > 0 ? 300 : -300,
       opacity: 0,
-      scale: 0.8,
+      scale: 0.9,
     }),
     center: {
       zIndex: 1,
@@ -77,14 +93,14 @@ export default function FlashcardApp() {
       zIndex: 0,
       x: direction < 0 ? 300 : -300,
       opacity: 0,
-      scale: 0.8,
+      scale: 0.9,
     }),
   }
 
   const transition = {
     type: "spring",
-    stiffness: 300,
-    damping: 30,
+    stiffness: 500,
+    damping: 25,
   }
 
   return (
@@ -109,6 +125,10 @@ export default function FlashcardApp() {
               transition={transition}
               className="absolute inset-0 bg-white rounded-2xl shadow-2xl p-6 flex flex-col justify-between cursor-grab active:cursor-grabbing"
               whileTap={{ scale: 0.98 }}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={0.2}
+              onDragEnd={handleDragEnd}
             >
               {/* Pronunciation Button */}
               <div className="flex justify-end">

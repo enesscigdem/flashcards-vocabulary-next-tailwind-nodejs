@@ -1,25 +1,51 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react"
-import { flashcards } from "@/lib/data"
 import { useSpeech } from "@/hooks/use-speech"
 import { useSwipe } from "@/hooks/use-swipe"
 
+interface Flashcard {
+  id: number
+  term: string
+  synonym?: string
+  translation: string
+  example?: string
+  exampleTranslation?: string
+}
+
 export default function FlashcardApp() {
+  const [flashcards, setFlashcards] = useState<Flashcard[]>([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [direction, setDirection] = useState(0)
   const { speak, isSupported } = useSpeech()
 
+  useEffect(() => {
+    fetch("http://localhost:4000/api/words")
+      .then((res) => res.json())
+      .then((data: Flashcard[]) => setFlashcards(data))
+      .catch((err) => console.error("Error fetching words:", err))
+  }, [])
+
   const currentCard = flashcards[currentIndex]
 
+  if (flashcards.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        Loading...
+      </div>
+    )
+  }
+
   const nextCard = () => {
+    if (flashcards.length === 0) return
     setDirection(1)
     setCurrentIndex((prev) => (prev + 1) % flashcards.length)
   }
 
   const prevCard = () => {
+    if (flashcards.length === 0) return
     setDirection(-1)
     setCurrentIndex((prev) => (prev - 1 + flashcards.length) % flashcards.length)
   }

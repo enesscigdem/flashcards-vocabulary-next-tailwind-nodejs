@@ -81,43 +81,25 @@ npm run start
 │   ├── use-speech.ts     # Text-to-speech functionality
 │   └── use-swipe.ts      # Swipe gesture detection
 ├── lib/
-│   └── data.ts           # Flashcard data (easily replaceable with API)
+│   └── utils.ts          # Shared utility functions
 └── README.md
 \`\`\`
 
-## Customization
+## Backend API
 
-### Adding New Flashcards
+Flashcards are loaded from a Node.js backend. Start it from the `backend/` directory:
 
-Edit \`lib/data.ts\` to add or modify flashcards:
+```bash
+cd backend
+npm install
+npm start
+```
 
-\`\`\`typescript
-export const flashcards: Flashcard[] = [
-  {
-    term: "Your Word",
-    synonym: "Alternative word",
-    translation: "Translation",
-    example: "Example sentence",
-    exampleTranslation: "Translated example"
-  },
-  // Add more cards...
-]
-\`\`\`
+The API exposes:
 
-### Connecting to an API
+- `GET /api/words` – list all flashcards
+- `GET /api/words/:id` – get a single flashcard by `id`
 
-Replace the static data import in \`app/page.tsx\`:
-
-\`\`\`typescript
-// Instead of: import { flashcards } from '@/lib/data'
-const [flashcards, setFlashcards] = useState([])
-
-useEffect(() => {
-  fetch('/api/flashcards')
-    .then(res => res.json())
-    .then(setFlashcards)
-}, [])
-\`\`\`
 
 ### Styling
 

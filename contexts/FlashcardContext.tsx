@@ -40,7 +40,6 @@ export const FlashcardProvider = ({ children }: { children: React.ReactNode }) =
   const [currentIndex, setCurrentIndex] = useState(0);
   const [filter, setFilter] = useState<Filter>("all");
 
-  // 1) Kelimeleri yükle
   useEffect(() => {
     fetch(`${API_BASE}/api/words`)
         .then(res => res.json())

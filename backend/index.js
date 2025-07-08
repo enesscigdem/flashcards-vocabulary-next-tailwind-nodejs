@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use('/api/words', wordsRouter);
 
-const PORT = process.env.PORT || 4000;
+const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`Backend listening on port ${PORT}`);
 });

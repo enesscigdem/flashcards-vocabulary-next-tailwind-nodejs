@@ -87,13 +87,15 @@ npm run start
 
 ## Backend API
 
-Flashcards are loaded from a Node.js backend. Start it from the `backend/` directory:
+Flashcards are loaded from a Node.js backend that listens on [http://localhost:4000](http://localhost:4000). Start it from the `backend/` directory:
 
 ```bash
 cd backend
 npm install
 npm start
 ```
+
+Make sure the backend is running on port **4000** when using the frontend at [http://localhost:3000](http://localhost:3000).
 
 The API exposes:
 

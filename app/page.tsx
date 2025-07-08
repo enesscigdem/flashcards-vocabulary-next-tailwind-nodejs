@@ -44,11 +44,21 @@ export default function FlashcardApp() {
   }
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/words")
-        .then((res) => res.json())
-        .then((data: Flashcard[]) => setFlashcards(data))
-        .catch((err) => console.error(err))
-  }, [])
+    console.log('📡 Fetching flashcards...');
+    fetch('http://localhost:4000/api/words')
+        .then((res) => {
+          console.log('📩 Response status:', res.status);
+          return res.json();
+        })
+        .then((data: Flashcard[]) => {
+          console.log('📦 Received data:', data);
+          setFlashcards(data);
+        })
+        .catch((err) => {
+          console.error('❌ Fetch error:', err);
+        });
+  }, []);
+
 
   // Sonra: conditional return ve event handler’lar
   if (flashcards.length === 0) {

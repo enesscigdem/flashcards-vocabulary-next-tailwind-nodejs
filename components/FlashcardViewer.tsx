@@ -4,10 +4,8 @@ import {useFlashcards} from '@/contexts/FlashcardContext'
 import {useSpeech} from '@/hooks/use-speech'
 import {useSwipe} from '@/hooks/use-swipe'
 import {useEffect, useState} from 'react'
-import {Volume2, Check, X, Settings as SettingsIcon} from 'lucide-react'
+import {Volume2, Check, X} from 'lucide-react'
 import {ProgressCircle} from './ProgressCircle'
-import {Dialog, DialogContent, DialogTrigger, DialogTitle} from './ui/dialog'
-import SettingsPanel from './SettingsPanel'
 import {Skeleton} from './ui/skeleton'
 
 export default function FlashcardViewer() {
@@ -15,21 +13,14 @@ export default function FlashcardViewer() {
     filteredCards,
     currentIndex,
     next,
-    prev,
     markLearned,
-    settings,
     setFilter,
     filter,
   } = useFlashcards()
   const card = filteredCards[currentIndex]
   const {speak, isSupported, isSpeaking} = useSpeech()
   const [flipped,setFlipped] = useState(false)
-  const gradients = [
-    'from-purple-600 via-purple-700 to-indigo-900',
-    'from-teal-500 via-green-600 to-emerald-700',
-    'from-amber-500 via-orange-600 to-rose-700',
-  ]
-  const gradient = gradients[settings.gradient % gradients.length]
+  const gradient = 'from-purple-600 via-fuchsia-700 to-indigo-900'
   const swipeHandlers = useSwipe({
     onSwipeLeft: () => handleIncorrect(),
     onSwipeRight: () => handleCorrect(),
@@ -50,12 +41,21 @@ export default function FlashcardViewer() {
       if(e.key==='ArrowRight') handleCorrect()
       if(e.key==='ArrowLeft') handleIncorrect()
       if(e.key==='Enter') setFlipped(f=>!f)
+      if(e.key===' ') { e.preventDefault(); handlePronounce() }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [handleCorrect, handleIncorrect])
 
   useEffect(() => { setFlipped(false) }, [card])
+
+  // preload next card pronunciation
+  useEffect(() => {
+    const nextCard = filteredCards[(currentIndex + 1) % filteredCards.length]
+    if(nextCard){
+      new SpeechSynthesisUtterance(nextCard.term)
+    }
+  }, [currentIndex, filteredCards])
 
   const slideVariants = {
     enter: (dir:number) => ({ x: dir>0?300:-300, opacity:0, rotateY:0 }),
@@ -78,18 +78,16 @@ export default function FlashcardViewer() {
       <div className="bg-background rounded-xl p-2">
       <div className="flex justify-between mb-2 items-center">
         <div className="space-x-2 text-sm">
-          {['all','learned','toLearn'].map(f=>(
+          {[{val:'all',label:'Tümü'},{val:'learned',label:'Öğrendiklerim'},{val:'toLearn',label:'Öğrenmediklerim'}].map(({val,label})=>(
             <button
-              key={f}
-              onClick={()=>setFilter(f as any)}
-              className={`px-2 py-1 rounded ${filter===f?'bg-primary text-primary-foreground':'bg-muted'}`}
-            >{f}</button>
+              key={val}
+              onClick={()=>setFilter(val as any)}
+              className={`px-3 py-1 rounded-full transition-colors ${filter===val?'bg-primary text-primary-foreground':'bg-muted'}`}
+              aria-label={label}
+            >{label}</button>
           ))}
         </div>
-        <Dialog>
-          <DialogTrigger aria-label="Open settings" className="p-2"><SettingsIcon size={18}/></DialogTrigger>
-          <DialogContent><DialogTitle>Settings</DialogTitle><SettingsPanel/></DialogContent>
-        </Dialog>
+        {/* Theme toggle handled in page */}
       </div>
       <div className="relative h-80" role="region" aria-label="Flashcard" aria-live="polite">
         <AnimatePresence initial={false} custom={0}>
@@ -100,33 +98,36 @@ export default function FlashcardViewer() {
             initial="enter"
             animate="center"
             exit="exit"
+            whileHover={{y:-8}}
+            whileTap={{scale:0.97}}
             transition={{type:'spring',stiffness:500,damping:30}}
-            className={`absolute inset-0 bg-card rounded-xl shadow-xl p-6 cursor-pointer perspective-1000 ${settings.animations?'transition-transform':''}`}
+            className="absolute inset-0 bg-card rounded-xl shadow-xl p-6 cursor-pointer perspective-1000 transition-transform"
             style={{transformStyle:'preserve-3d'}}
             onClick={()=>setFlipped(f=>!f)}
           >
-            <div className={`absolute inset-0 backface-hidden flex flex-col justify-center items-center gap-2 ${settings.fontSize==='lg'?'text-2xl':settings.fontSize==='sm'?'text-lg':'text-xl'}`}
-                 style={{transform:'rotateY(0deg)'}}>
-              <h1 className="font-extrabold tracking-tight text-foreground text-center" style={{textShadow:'0 1px 1px rgba(0,0,0,0.2)'}}>{card.term}</h1>
-              {card.synonym && <p className="text-muted-foreground text-sm italic">{card.synonym}</p>}
+            <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center p-6 text-center" style={{transform:'rotateY(0deg)'}}>
+              <h1 className="text-3xl font-extrabold text-gray-800 mb-1">{card.term}</h1>
+              {card.synonym && <p className="italic text-purple-600 text-sm mb-2">{card.synonym}</p>}
+              <p className="text-xl font-medium text-gray-800">{card.translation}</p>
             </div>
-            <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center p-4 text-center" style={{transform:'rotateY(180deg)'}}>
-              <p className="font-semibold mb-2">{card.translation}</p>
-              {card.example && <p className="text-sm">{card.example}</p>}
-              {card.exampleTranslation && <p className="text-sm text-muted-foreground">{card.exampleTranslation}</p>}
+            <div className="absolute inset-0 backface-hidden flex flex-col justify-center items-center p-6 text-center" style={{transform:'rotateY(180deg)'}}>
+              <div className="w-full border-t border-gray-200 pt-4 space-y-1">
+                {card.example && <p className="text-sm text-gray-700">{card.example}</p>}
+                {card.exampleTranslation && <p className="text-sm text-muted-foreground">{card.exampleTranslation}</p>}
+              </div>
             </div>
           </motion.div>
         </AnimatePresence>
       </div>
       <div className="flex items-center justify-between mt-4 space-x-4">
-        <motion.button onClick={prev} className="p-3 rounded-full bg-muted" whileTap={{scale:0.9}} aria-label="Previous card">
+        <motion.button onClick={handleIncorrect} className="p-3 w-11 h-11 rounded-full bg-muted" whileHover={{scale:1.1,opacity:0.8}} whileTap={{scale:0.9}} aria-label="Yanlış">
           <X className="h-5 w-5" />
         </motion.button>
-        <button onClick={handlePronounce} className="relative p-4" aria-label={`Pronounce ${card.term}`}>
+        <button onClick={handlePronounce} className="relative p-4 w-11 h-11" aria-label={`Pronounce ${card.term}`}>
           <ProgressCircle progress={(currentIndex+1)/filteredCards.length} playing={isSpeaking} />
           <Volume2 className="absolute inset-0 m-auto h-5 w-5" />
         </button>
-        <motion.button onClick={handleCorrect} className="p-3 rounded-full bg-muted" whileTap={{scale:0.9}} aria-label="Next card">
+        <motion.button onClick={handleCorrect} className="p-3 w-11 h-11 rounded-full bg-muted" whileHover={{scale:1.1,opacity:0.8}} whileTap={{scale:0.9}} aria-label="Doğru">
           <Check className="h-5 w-5" />
         </motion.button>
       </div>

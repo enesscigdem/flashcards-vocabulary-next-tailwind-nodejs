@@ -2,7 +2,7 @@
 "use client";
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || ""; // Örn: https://myapp.vercel.app
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || ""; // Örn: https://myapp.vercel.app
 
 export interface Flashcard {
   id: number;

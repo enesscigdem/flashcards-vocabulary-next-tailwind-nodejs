@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react"
+import { Progress } from "@/components/ui/progress"
 import { useSpeech } from "@/hooks/use-speech"
 import { useSwipe } from "@/hooks/use-swipe"
 
@@ -110,7 +111,7 @@ export default function FlashcardApp() {
   const transition = {
     type: "spring",
     stiffness: 500,
-    damping: 25,
+    damping: 20,
   }
 
   return (
@@ -206,19 +207,10 @@ export default function FlashcardApp() {
             <ChevronLeft className="w-6 h-6" />
           </motion.button>
 
-          <div className="flex space-x-2">
-            {flashcards.map((_, index) => (
-              <motion.div
-                key={index}
-                className={`w-2 h-2 rounded-full transition-colors duration-200 ${
-                  index === currentIndex ? "bg-white" : "bg-white/40"
-                }`}
-                initial={{ scale: 0.8 }}
-                animate={{ scale: index === currentIndex ? 1.2 : 0.8 }}
-                transition={{ duration: 0.2 }}
-              />
-            ))}
-          </div>
+          <Progress
+            value={((currentIndex + 1) / flashcards.length) * 100}
+            className="flex-1 h-2"
+          />
 
           <motion.button
             onClick={nextCard}

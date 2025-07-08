@@ -1,3 +1,4 @@
+// contexts/FlashcardContext.tsx
 "use client";
 import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
 
@@ -6,6 +7,9 @@ export interface Flashcard {
   term: string;
   synonym?: string;
   translation: string;
+  example?: string;
+  exampleTranslation?: string;
+  learned: boolean;
 }
 
 export type Filter = "all" | "learned" | "toLearn";
@@ -13,12 +17,11 @@ export type Filter = "all" | "learned" | "toLearn";
 interface FlashcardContextState {
   cards: Flashcard[];
   currentIndex: number;
-  learned: Record<number, boolean>;
   filter: Filter;
   setFilter: (f: Filter) => void;
   next: () => void;
   prev: () => void;
-  markLearned: (id: number) => void;
+  markLearned: (id: number) => Promise<void>;
   filteredCards: Flashcard[];
 }
 
@@ -33,10 +36,9 @@ export const useFlashcards = () => {
 export const FlashcardProvider = ({ children }: { children: React.ReactNode }) => {
   const [cards, setCards] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [learned, setLearned] = useState<Record<number, boolean>>({});
   const [filter, setFilter] = useState<Filter>("all");
 
-  // Load cards from API
+  // Load all words with learned flag
   useEffect(() => {
     fetch("http://localhost:4000/api/words")
         .then(res => res.json())
@@ -44,41 +46,32 @@ export const FlashcardProvider = ({ children }: { children: React.ReactNode }) =
         .catch(console.error);
   }, []);
 
-  // Load learned state
-  useEffect(() => {
-    const saved = localStorage.getItem("learnedWords");
-    if (saved) setLearned(JSON.parse(saved));
-  }, []);
-
-  // Persist learned state
-  useEffect(() => {
-    localStorage.setItem("learnedWords", JSON.stringify(learned));
-  }, [learned]);
-
-  // Filter cards
+  // Filtered list
   const filteredCards = useMemo(() => {
-    if (filter === "learned") return cards.filter(c => learned[c.id]);
-    if (filter === "toLearn") return cards.filter(c => !learned[c.id]);
+    if (filter === "learned") return cards.filter(c => c.learned);
+    if (filter === "toLearn") return cards.filter(c => !c.learned);
     return cards;
-  }, [cards, filter, learned]);
+  }, [cards, filter]);
 
-  // Reset index when filter or list length changes
-  useEffect(() => {
-    setCurrentIndex(0);
-  }, [filter, filteredCards.length]);
+  // Reset index on filter change
+  useEffect(() => setCurrentIndex(0), [filter, filteredCards.length]);
 
-  const clampIndex = (i: number) => {
-    const len = filteredCards.length;
-    return len > 0 ? (i + len) % len : 0;
+  const clamp = (i: number) =>
+      filteredCards.length ? (i + filteredCards.length) % filteredCards.length : 0;
+  const next = () => setCurrentIndex(i => clamp(i + 1));
+  const prev = () => setCurrentIndex(i => clamp(i - 1));
+
+  // Mark as learned in backend and update state
+  const markLearned = async (id: number) => {
+    await fetch(`http://localhost:4000/api/words/${id}/learn`, { method: "POST" });
+    setCards(prev =>
+        prev.map(c => (c.id === id ? { ...c, learned: true } : c))
+    );
   };
-
-  const next = () => setCurrentIndex(i => clampIndex(i + 1));
-  const prev = () => setCurrentIndex(i => clampIndex(i - 1));
-  const markLearned = (id: number) => setLearned(l => ({ ...l, [id]: true }));
 
   return (
       <FlashcardContext.Provider
-          value={{ cards, currentIndex, learned, filter, setFilter, next, prev, markLearned, filteredCards }}
+          value={{ cards, currentIndex, filter, setFilter, next, prev, markLearned, filteredCards }}
       >
         {children}
       </FlashcardContext.Provider>

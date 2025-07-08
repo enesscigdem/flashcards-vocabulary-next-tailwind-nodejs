@@ -39,7 +39,7 @@ export default function FlashcardViewer() {
   return (
       <div
           className={`min-h-screen flex items-center justify-center transition-colors ${
-              darkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-purple-600 via-fuchsia-700 to-indigo-900'
+              darkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700\n'
           }`}
           {...swipe}
       >

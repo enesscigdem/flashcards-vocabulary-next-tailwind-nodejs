@@ -1916,5 +1916,2231 @@
     "translation": "deneyim",
     "example": "Gain experience.",
     "exampleTranslation": "Deneyim kazan."
+  },
+  {
+    "term": "ability",
+    "synonym": "capability",
+    "translation": "yetenek",
+    "example": "She has the ability to solve problems.",
+    "exampleTranslation": "Sorunları çözme yeteneği var."
+  },
+  {
+    "term": "activity",
+    "synonym": "action",
+    "translation": "etkinlik",
+    "example": "Physical activity is healthy.",
+    "exampleTranslation": "Fiziksel aktivite sağlıklıdır."
+  },
+  {
+    "term": "approach",
+    "synonym": "method",
+    "translation": "yaklaşım",
+    "example": "Try a different approach.",
+    "exampleTranslation": "Farklı bir yaklaşım dene."
+  },
+  {
+    "term": "argument",
+    "synonym": "debate",
+    "translation": "tartışma",
+    "example": "They had an argument yesterday.",
+    "exampleTranslation": "Dün bir tartışma yaşadılar."
+  },
+  {
+    "term": "aspect",
+    "synonym": "facet",
+    "translation": "yön",
+    "example": "Consider every aspect.",
+    "exampleTranslation": "Her yönü düşün."
+  },
+  {
+    "term": "asset",
+    "synonym": "resource",
+    "translation": "varlık",
+    "example": "Her language skill is an asset.",
+    "exampleTranslation": "Her dil becerisi bir varlıktır."
+  },
+  {
+    "term": "attitude",
+    "synonym": "mindset",
+    "translation": "tutum",
+    "example": "Positive attitude helps.",
+    "exampleTranslation": "Pozitif tutum yardımcı olur."
+  },
+  {
+    "term": "authority",
+    "synonym": "power",
+    "translation": "otorite",
+    "example": "He has authority in the team.",
+    "exampleTranslation": "Takımda otoritesi var."
+  },
+  {
+    "term": "average",
+    "synonym": "mean",
+    "translation": "ortalama",
+    "example": "The average score was high.",
+    "exampleTranslation": "Ortalama puan yüksekti."
+  },
+  {
+    "term": "base",
+    "synonym": "foundation",
+    "translation": "temel",
+    "example": "Build a solid base.",
+    "exampleTranslation": "Sağlam bir temel oluştur."
+  },
+  {
+    "term": "beat",
+    "synonym": "defeat",
+    "translation": "yenmek",
+    "example": "We beat the other team.",
+    "exampleTranslation": "Diğer takımı yendik."
+  },
+  {
+    "term": "behavior",
+    "synonym": "conduct",
+    "translation": "davranış",
+    "example": "His behavior is excellent.",
+    "exampleTranslation": "Davranışı mükemmel."
+  },
+  {
+    "term": "believe",
+    "synonym": "trust",
+    "translation": "inanmak",
+    "example": "I believe your story.",
+    "exampleTranslation": "Hikayene inanıyorum."
+  },
+  {
+    "term": "benefit",
+    "synonym": "advantage",
+    "translation": "fayda",
+    "example": "Exercise has many benefits.",
+    "exampleTranslation": "Egzersizin birçok faydası var."
+  },
+  {
+    "term": "board",
+    "synonym": "panel",
+    "translation": "kurul",
+    "example": "The board approved the plan.",
+    "exampleTranslation": "Kurul planı onayladı."
+  },
+  {
+    "term": "call",
+    "synonym": "phone",
+    "translation": "aramak",
+    "example": "Call me later.",
+    "exampleTranslation": "Beni daha sonra ara."
+  },
+  {
+    "term": "cell",
+    "synonym": "unit",
+    "translation": "hücre",
+    "example": "The body has many cells.",
+    "exampleTranslation": "Vücutta birçok hücre var."
+  },
+  {
+    "term": "central",
+    "synonym": "main",
+    "translation": "merkezi",
+    "example": "The city is central.",
+    "exampleTranslation": "Şehir merkezi."
+  },
+  {
+    "term": "concern",
+    "synonym": "worry",
+    "translation": "endişe",
+    "example": "My only concern is time.",
+    "exampleTranslation": "Tek endişem zaman."
+  },
+  {
+    "term": "conclusion",
+    "synonym": "ending",
+    "translation": "sonuç",
+    "example": "In conclusion, we agree.",
+    "exampleTranslation": "Sonuç olarak anlaşmaya vardık."
+  },
+  {
+    "term": "conduct",
+    "synonym": "carry out",
+    "translation": "yürütmek",
+    "example": "Conduct the experiment.",
+    "exampleTranslation": "Deneyi yürüt."
+  },
+  {
+    "term": "confirm",
+    "synonym": "verify",
+    "translation": "doğrulamak",
+    "example": "Please confirm your email.",
+    "exampleTranslation": "E-postanızı doğrulayın."
+  },
+  {
+    "term": "consider",
+    "synonym": "think about",
+    "translation": "düşünmek",
+    "example": "Consider the offer.",
+    "exampleTranslation": "Teklifi düşün."
+  },
+  {
+    "term": "consult",
+    "synonym": "advise",
+    "translation": "danışmak",
+    "example": "Consult your doctor.",
+    "exampleTranslation": "Doktorunuza danışın."
+  },
+  {
+    "term": "contain",
+    "synonym": "include",
+    "translation": "içermek",
+    "example": "The box contains books.",
+    "exampleTranslation": "Kutu kitap içeriyor."
+  },
+  {
+    "term": "context",
+    "synonym": "setting",
+    "translation": "bağlam",
+    "example": "Understand the context.",
+    "exampleTranslation": "Bağlamı anlayın."
+  },
+  {
+    "term": "continue",
+    "synonym": "proceed",
+    "translation": "devam etmek",
+    "example": "Continue reading.",
+    "exampleTranslation": "Okumaya devam et."
+  },
+  {
+    "term": "contribute",
+    "synonym": "give",
+    "translation": "katkıda bulunmak",
+    "example": "Contribute ideas.",
+    "exampleTranslation": "Fikirler kat."
+  },
+  {
+    "term": "create",
+    "synonym": "produce",
+    "translation": "yaratmak",
+    "example": "Create a new account.",
+    "exampleTranslation": "Yeni bir hesap oluştur."
+  },
+  {
+    "term": "crime",
+    "synonym": "offense",
+    "translation": "suç",
+    "example": "They reported the crime.",
+    "exampleTranslation": "Suçu bildirdiler."
+  },
+  {
+    "term": "culture",
+    "synonym": "tradition",
+    "translation": "kültür",
+    "example": "Learn about culture.",
+    "exampleTranslation": "Kültürü öğren."
+  },
+  {
+    "term": "damage",
+    "synonym": "harm",
+    "translation": "zarar",
+    "example": "The storm caused damage.",
+    "exampleTranslation": "Fırtına zarar verdi."
+  },
+  {
+    "term": "decide",
+    "synonym": "determine",
+    "translation": "karar vermek",
+    "example": "Decide quickly.",
+    "exampleTranslation": "Hemen karar ver."
+  },
+  {
+    "term": "define",
+    "synonym": "explain",
+    "translation": "tanımlamak",
+    "example": "Define the term.",
+    "exampleTranslation": "Terimi tanımlayın."
+  },
+  {
+    "term": "deliver",
+    "synonym": "provide",
+    "translation": "teslim etmek",
+    "example": "Deliver the package.",
+    "exampleTranslation": "Paketi teslim et."
+  },
+  {
+    "term": "demand",
+    "synonym": "require",
+    "translation": "talep etmek",
+    "example": "Demand respect.",
+    "exampleTranslation": "Saygı talep et."
+  },
+  {
+    "term": "depend",
+    "synonym": "rely",
+    "translation": "bağlı olmak",
+    "example": "It depends on you.",
+    "exampleTranslation": "Ona bağlı."
+  },
+  {
+    "term": "describe",
+    "synonym": "portray",
+    "translation": "tanımlamak",
+    "example": "Describe the scene.",
+    "exampleTranslation": "Sahneyi tanımlayın."
+  },
+  {
+    "term": "design",
+    "synonym": "plan",
+    "translation": "tasarlamak",
+    "example": "Design a logo.",
+    "exampleTranslation": "Bir logo tasarla."
+  },
+  {
+    "term": "detect",
+    "synonym": "discover",
+    "translation": "tespit etmek",
+    "example": "Detect the error.",
+    "exampleTranslation": "Hatasını tespit et."
+  },
+  {
+    "term": "develop",
+    "synonym": "grow",
+    "translation": "geliştirmek",
+    "example": "Develop your skills.",
+    "exampleTranslation": "Becerilerini geliştir."
+  },
+  {
+    "term": "discuss",
+    "synonym": "talk over",
+    "translation": "tartışmak",
+    "example": "Discuss the plan.",
+    "exampleTranslation": "Planı tartışın."
+  },
+  {
+    "term": "display",
+    "synonym": "show",
+    "translation": "sergilemek",
+    "example": "Display the results.",
+    "exampleTranslation": "Sonuçları sergileyin."
+  },
+  {
+    "term": "distribute",
+    "synonym": "spread",
+    "translation": "dağıtmak",
+    "example": "Distribute the flyers.",
+    "exampleTranslation": "El ilanlarını dağıtın."
+  },
+  {
+    "term": "document",
+    "synonym": "record",
+    "translation": "belgelemek",
+    "example": "Document the process.",
+    "exampleTranslation": "Süreci belgeleyin."
+  },
+  {
+    "term": "educate",
+    "synonym": "teach",
+    "translation": "eğitmek",
+    "example": "Educate the public.",
+    "exampleTranslation": "Halkı eğitin."
+  },
+  {
+    "term": "emerge",
+    "synonym": "appear",
+    "translation": "ortaya çıkmak",
+    "example": "New ideas emerge.",
+    "exampleTranslation": "Yeni fikirler ortaya çıkar."
+  },
+  {
+    "term": "enable",
+    "synonym": "allow",
+    "translation": "olanak sağlamak",
+    "example": "Enable notifications.",
+    "exampleTranslation": "Bildirimleri etkinleştir."
+  },
+  {
+    "term": "encourage",
+    "synonym": "support",
+    "translation": "cesaretlendirmek",
+    "example": "Encourage teamwork.",
+    "exampleTranslation": "Takım çalışmasını teşvik et."
+  },
+  {
+    "term": "ensure",
+    "synonym": "make sure",
+    "translation": "sağlamak",
+    "example": "Ensure safety.",
+    "exampleTranslation": "Güvenliği sağla."
+  },
+  {
+    "term": "estimate",
+    "synonym": "approximate",
+    "translation": "tahmin etmek",
+    "example": "Estimate the cost.",
+    "exampleTranslation": "Maliyeti tahmin et."
+  },
+  {
+    "term": "evaluate",
+    "synonym": "assess",
+    "translation": "değerlendirmek",
+    "example": "Evaluate the evidence.",
+    "exampleTranslation": "Delilleri değerlendir."
+  },
+  {
+    "term": "examine",
+    "synonym": "inspect",
+    "translation": "incelemek",
+    "example": "Examine the data.",
+    "exampleTranslation": "Verileri incele."
+  },
+  {
+    "term": "export",
+    "synonym": "ship",
+    "translation": "ihraç etmek",
+    "example": "Export goods abroad.",
+    "exampleTranslation": "Malları yurt dışına ihraç et."
+  },
+  {
+    "term": "express",
+    "synonym": "convey",
+    "translation": "ifade etmek",
+    "example": "Express your feelings.",
+    "exampleTranslation": "Duygularını ifade et."
+  },
+  {
+    "term": "extend",
+    "synonym": "lengthen",
+    "translation": "uzatmak",
+    "example": "Extend the deadline.",
+    "exampleTranslation": "Son tarihi uzat."
+  },
+  {
+    "term": "focus",
+    "synonym": "concentrate",
+    "translation": "odaklanmak",
+    "example": "Focus on the task.",
+    "exampleTranslation": "Göreve odaklan."
+  },
+  {
+    "term": "function",
+    "synonym": "operate",
+    "translation": "işlev görmek",
+    "example": "The device functions well.",
+    "exampleTranslation": "Cihaz iyi çalışıyor."
+  },
+  {
+    "term": "handle",
+    "synonym": "manage",
+    "translation": "ele almak",
+    "example": "Handle with care.",
+    "exampleTranslation": "Dikkatlice ele al."
+  },
+  {
+    "term": "identify",
+    "synonym": "recognize",
+    "translation": "tanımlamak",
+    "example": "Identify the problem.",
+    "exampleTranslation": "Sorunu tanımlayın."
+  },
+  {
+    "term": "illustrate",
+    "synonym": "demonstrate",
+    "translation": "örneklemek",
+    "example": "Illustrate your point.",
+    "exampleTranslation": "Noktanı örnekle."
+  },
+  {
+    "term": "implement",
+    "synonym": "execute",
+    "translation": "uygulamak",
+    "example": "Implement the plan.",
+    "exampleTranslation": "Planı uygula."
+  },
+  {
+    "term": "improve",
+    "synonym": "enhance",
+    "translation": "iyileştirmek",
+    "example": "Improve your performance.",
+    "exampleTranslation": "Performansını iyileştir."
+  },
+  {
+    "term": "include",
+    "synonym": "contain",
+    "translation": "içermek",
+    "example": "Include all details.",
+    "exampleTranslation": "Tüm detayları ekle."
+  },
+  {
+    "term": "influence",
+    "synonym": "affect",
+    "translation": "etkilemek",
+    "example": "Media influences opinions.",
+    "exampleTranslation": "Medya fikirleri etkiler."
+  },
+  {
+    "term": "involve",
+    "synonym": "include",
+    "translation": "içermek",
+    "example": "Involve everyone.",
+    "exampleTranslation": "Herkesi dahil et."
+  },
+  {
+    "term": "issue",
+    "synonym": "matter",
+    "translation": "konu",
+    "example": "Address the issue.",
+    "exampleTranslation": "Konuya değin."
+  },
+  {
+    "term": "justify",
+    "synonym": "vindicate",
+    "translation": "haklı çıkarmak",
+    "example": "Justify your choice.",
+    "exampleTranslation": "Seçimini haklı çıkar."
+  },
+  {
+    "term": "maintain",
+    "synonym": "preserve",
+    "translation": "sürdürmek",
+    "example": "Maintain the equipment.",
+    "exampleTranslation": "Ekipmanı koru."
+  },
+  {
+    "term": "manage",
+    "synonym": "oversee",
+    "translation": "yönetmek",
+    "example": "Manage the team.",
+    "exampleTranslation": "Takımı yönet."
+  },
+  {
+    "term": "mention",
+    "synonym": "refer",
+    "translation": "bahsetmek",
+    "example": "Mention the topic.",
+    "exampleTranslation": "Konudan bahset."
+  },
+  {
+    "term": "observe",
+    "synonym": "watch",
+    "translation": "gözlemlemek",
+    "example": "Observe carefully.",
+    "exampleTranslation": "Dikkatlice gözlemle."
+  },
+  {
+    "term": "occupy",
+    "synonym": "inhabit",
+    "translation": "işgal etmek",
+    "example": "They occupy the building.",
+    "exampleTranslation": "Binayı işgal ettiler."
+  },
+  {
+    "term": "offer",
+    "synonym": "propose",
+    "translation": "teklif etmek",
+    "example": "Offer your opinion.",
+    "exampleTranslation": "Görüşünü sun."
+  },
+  {
+    "term": "operate",
+    "synonym": "run",
+    "translation": "çalıştırmak",
+    "example": "Operate the machine.",
+    "exampleTranslation": "Makineyi çalıştır."
+  },
+  {
+    "term": "organize",
+    "synonym": "arrange",
+    "translation": "düzenlemek",
+    "example": "Organize the files.",
+    "exampleTranslation": "Dosyaları düzenle."
+  },
+  {
+    "term": "participate",
+    "synonym": "take part",
+    "translation": "katılmak",
+    "example": "Participate actively.",
+    "exampleTranslation": "Aktif olarak katıl."
+  },
+  {
+    "term": "perform",
+    "synonym": "execute",
+    "translation": "yerine getirmek",
+    "example": "Perform the task.",
+    "exampleTranslation": "Görevi yerine getir."
+  },
+  {
+    "term": "always",
+    "synonym": "constantly",
+    "translation": "her zaman",
+    "example": "She always arrives on time.",
+    "exampleTranslation": "O her zaman zamanında gelir."
+  },
+  {
+    "term": "often",
+    "synonym": "frequently",
+    "translation": "sıklıkla",
+    "example": "I often go for a walk.",
+    "exampleTranslation": "Sıklıkla yürüyüşe çıkarım."
+  },
+  {
+    "term": "usually",
+    "synonym": "generally",
+    "translation": "genellikle",
+    "example": "We usually eat at six.",
+    "exampleTranslation": "Genellikle altıda yeriz."
+  },
+  {
+    "term": "sometimes",
+    "synonym": "occasionally",
+    "translation": "bazen",
+    "example": "Sometimes I read before bed.",
+    "exampleTranslation": "Bazen yatmadan önce okurum."
+  },
+  {
+    "term": "rarely",
+    "synonym": "seldom",
+    "translation": "nadiren",
+    "example": "He rarely watches TV.",
+    "exampleTranslation": "O nadiren televizyon izler."
+  },
+  {
+    "term": "almost",
+    "synonym": "nearly",
+    "translation": "neredeyse",
+    "example": "I'm almost finished.",
+    "exampleTranslation": "Neredeyse bitirdim."
+  },
+  {
+    "term": "already",
+    "synonym": "previously",
+    "translation": "zaten",
+    "example": "I have already eaten.",
+    "exampleTranslation": "Zaten yedim."
+  },
+  {
+    "term": "yet",
+    "synonym": "so far",
+    "translation": "henüz",
+    "example": "I haven't arrived yet.",
+    "exampleTranslation": "Henüz varmadım."
+  },
+  {
+    "term": "still",
+    "synonym": "yet",
+    "translation": "hala",
+    "example": "She is still sleeping.",
+    "exampleTranslation": "O hala uyuyor."
+  },
+  {
+    "term": "finally",
+    "synonym": "eventually",
+    "translation": "sonunda",
+    "example": "We finally finished.",
+    "exampleTranslation": "Sonunda bitirdik."
+  },
+  {
+    "term": "recently",
+    "synonym": "lately",
+    "translation": "yakın zamanda",
+    "example": "I recently moved.",
+    "exampleTranslation": "Yakın zamanda taşındım."
+  },
+  {
+    "term": "ago",
+    "synonym": "before",
+    "translation": "önce",
+    "example": "I left an hour ago.",
+    "exampleTranslation": "Bir saat önce ayrıldım."
+  },
+  {
+    "term": "today",
+    "synonym": "this day",
+    "translation": "bugün",
+    "example": "I'm busy today.",
+    "exampleTranslation": "Bugün meşgulüm."
+  },
+  {
+    "term": "tomorrow",
+    "synonym": "next day",
+    "translation": "yarın",
+    "example": "I'll call you tomorrow.",
+    "exampleTranslation": "Yarın seni arayacağım."
+  },
+  {
+    "term": "yesterday",
+    "synonym": "the day before",
+    "translation": "dün",
+    "example": "I saw her yesterday.",
+    "exampleTranslation": "Onu dün gördüm."
+  },
+  {
+    "term": "soon",
+    "synonym": "shortly",
+    "translation": "yakında",
+    "example": "We’ll leave soon.",
+    "exampleTranslation": "Yakında ayrılacağız."
+  },
+  {
+    "term": "later",
+    "synonym": "afterward",
+    "translation": "sonra",
+    "example": "Let’s talk later.",
+    "exampleTranslation": "Daha sonra konuşalım."
+  },
+  {
+    "term": "nowadays",
+    "synonym": "these days",
+    "translation": "günümüzde",
+    "example": "Nowadays people use smartphones.",
+    "exampleTranslation": "Günümüzde insanlar akıllı telefon kullanıyor."
+  },
+  {
+    "term": "generally",
+    "synonym": "broadly",
+    "translation": "genel olarak",
+    "example": "Generally, it's safe.",
+    "exampleTranslation": "Genel olarak güvenli."
+  },
+  {
+    "term": "particularly",
+    "synonym": "especially",
+    "translation": "özellikle",
+    "example": "He particularly likes jazz.",
+    "exampleTranslation": "Özellikle cazı sever."
+  },
+  {
+    "term": "especially",
+    "synonym": "notably",
+    "translation": "özellikle",
+    "example": "I love desserts, especially cake.",
+    "exampleTranslation": "Tatlıları severim, özellikle pastayı."
+  },
+  {
+    "term": "actually",
+    "synonym": "in fact",
+    "translation": "aslında",
+    "example": "I actually enjoyed it.",
+    "exampleTranslation": "Aslında ondan keyif aldım."
+  },
+  {
+    "term": "exactly",
+    "synonym": "precisely",
+    "translation": "tam olarak",
+    "example": "That's exactly right.",
+    "exampleTranslation": "Bu tam olarak doğru."
+  },
+  {
+    "term": "totally",
+    "synonym": "completely",
+    "translation": "tamamen",
+    "example": "I'm totally exhausted.",
+    "exampleTranslation": "Tamamen yorgunum."
+  },
+  {
+    "term": "completely",
+    "synonym": "entirely",
+    "translation": "bütünüyle",
+    "example": "She completely forgot.",
+    "exampleTranslation": "O tamamen unuttu."
+  },
+  {
+    "term": "house",
+    "synonym": "home",
+    "translation": "ev",
+    "example": "Her house is big.",
+    "exampleTranslation": "Onun evi büyük."
+  },
+  {
+    "term": "home",
+    "synonym": "residence",
+    "translation": "yurt",
+    "example": "I’m going home.",
+    "exampleTranslation": "Eve gidiyorum."
+  },
+  {
+    "term": "school",
+    "synonym": "academy",
+    "translation": "okul",
+    "example": "The school is closed.",
+    "exampleTranslation": "Okul kapalı."
+  },
+  {
+    "term": "place",
+    "synonym": "location",
+    "translation": "yer",
+    "example": "This is a nice place.",
+    "exampleTranslation": "Burası güzel bir yer."
+  },
+  {
+    "term": "world",
+    "synonym": "earth",
+    "translation": "dünya",
+    "example": "The world is round.",
+    "exampleTranslation": "Dünya yuvarlaktır."
+  },
+  {
+    "term": "life",
+    "synonym": "existence",
+    "translation": "hayat",
+    "example": "Life is precious.",
+    "exampleTranslation": "Hayat kıymetlidir."
+  },
+  {
+    "term": "child",
+    "synonym": "kid",
+    "translation": "çocuk",
+    "example": "The child is playing.",
+    "exampleTranslation": "Çocuk oynuyor."
+  },
+  {
+    "term": "parent",
+    "synonym": "guardian",
+    "translation": "ebeveyn",
+    "example": "His parent came.",
+    "exampleTranslation": "Onun ebeveyni geldi."
+  },
+  {
+    "term": "friend",
+    "synonym": "companion",
+    "translation": "arkadaş",
+    "example": "My friend called.",
+    "exampleTranslation": "Arkadaşım aradı."
+  },
+  {
+    "term": "family",
+    "synonym": "relatives",
+    "translation": "aile",
+    "example": "Family is important.",
+    "exampleTranslation": "Aile önemlidir."
+  },
+  {
+    "term": "hour",
+    "synonym": "sixty minutes",
+    "translation": "saat",
+    "example": "Wait an hour.",
+    "exampleTranslation": "Bir saat bekle."
+  },
+  {
+    "term": "minute",
+    "synonym": "sixty seconds",
+    "translation": "dakika",
+    "example": "Just a minute.",
+    "exampleTranslation": "Bir dakikan."
+  },
+  {
+    "term": "second",
+    "synonym": "moment",
+    "translation": "saniye",
+    "example": "Wait a second.",
+    "exampleTranslation": "Bir saniye bekle."
+  },
+  {
+    "term": "morning",
+    "synonym": "dawn",
+    "translation": "sabah",
+    "example": "Good morning!",
+    "exampleTranslation": "Günaydın!"
+  },
+  {
+    "term": "evening",
+    "synonym": "dusk",
+    "translation": "akşam",
+    "example": "Good evening.",
+    "exampleTranslation": "İyi akşamlar."
+  },
+  {
+    "term": "night",
+    "synonym": "dark",
+    "translation": "gece",
+    "example": "I work at night.",
+    "exampleTranslation": "Gece çalışırım."
+  },
+  {
+    "term": "breakfast",
+    "synonym": "morning meal",
+    "translation": "kahvaltı",
+    "example": "I had eggs for breakfast.",
+    "exampleTranslation": "Kahvaltıda yumurta yedim."
+  },
+  {
+    "term": "lunch",
+    "synonym": "noon meal",
+    "translation": "öğle yemeği",
+    "example": "We eat lunch at twelve.",
+    "exampleTranslation": "Öğle yemeğini on ikide yeriz."
+  },
+  {
+    "term": "dinner",
+    "synonym": "evening meal",
+    "translation": "akşam yemeği",
+    "example": "Dinner is ready.",
+    "exampleTranslation": "Akşam yemeği hazır."
+  },
+  {
+    "term": "food",
+    "synonym": "nourishment",
+    "translation": "yiyecek",
+    "example": "I love Italian food.",
+    "exampleTranslation": "İtalyan yemeklerini severim."
+  },
+  {
+    "term": "water",
+    "synonym": "H₂O",
+    "translation": "su",
+    "example": "Drink water daily.",
+    "exampleTranslation": "Günlük su iç."
+  },
+  {
+    "term": "coffee",
+    "synonym": "java",
+    "translation": "kahve",
+    "example": "I need coffee.",
+    "exampleTranslation": "Kahveye ihtiyacım var."
+  },
+  {
+    "term": "tea",
+    "synonym": "brew",
+    "translation": "çay",
+    "example": "She drinks tea.",
+    "exampleTranslation": "O çay içer."
+  },
+  {
+    "term": "fruit",
+    "synonym": "produce",
+    "translation": "meyve",
+    "example": "Eat fruit every day.",
+    "exampleTranslation": "Her gün meyve ye."
+  },
+  {
+    "term": "vegetable",
+    "synonym": "veggie",
+    "translation": "sebze",
+    "example": "Vegetable soup is healthy.",
+    "exampleTranslation": "Sebze çorbası sağlıklıdır."
+  },
+  {
+    "term": "bread",
+    "synonym": "loaf",
+    "translation": "ekmek",
+    "example": "Buy fresh bread.",
+    "exampleTranslation": "Taze ekmek al."
+  },
+  {
+    "term": "meat",
+    "synonym": "flesh",
+    "translation": "et",
+    "example": "I like grilled meat.",
+    "exampleTranslation": "Izgara et severim."
+  },
+  {
+    "term": "egg",
+    "synonym": "ovum",
+    "translation": "yumurta",
+    "example": "Boiled egg is tasty.",
+    "exampleTranslation": "Haşlanmış yumurta lezzetlidir."
+  },
+  {
+    "term": "milk",
+    "synonym": "dairy",
+    "translation": "süt",
+    "example": "Pour milk in cereal.",
+    "exampleTranslation": "Mısır gevreğine süt dök."
+  },
+  {
+    "term": "apartment",
+    "synonym": "flat",
+    "translation": "daire",
+    "example": "She rents an apartment.",
+    "exampleTranslation": "O bir daire kiralıyor."
+  },
+  {
+    "term": "room",
+    "synonym": "space",
+    "translation": "oda",
+    "example": "This room is clean.",
+    "exampleTranslation": "Bu oda temiz."
+  },
+  {
+    "term": "window",
+    "synonym": "pane",
+    "translation": "pencere",
+    "example": "Open the window.",
+    "exampleTranslation": "Pencereyi aç."
+  },
+  {
+    "term": "chair",
+    "synonym": "seat",
+    "translation": "sandalye",
+    "example": "Sit on the chair.",
+    "exampleTranslation": "Sandalyeye otur."
+  },
+  {
+    "term": "table",
+    "synonym": "desk",
+    "translation": "masa",
+    "example": "Put it on the table.",
+    "exampleTranslation": "Onu masanın üzerine koy."
+  },
+  {
+    "term": "bed",
+    "synonym": "cot",
+    "translation": "yataq",
+    "example": "I sleep in my bed.",
+    "exampleTranslation": "Yatağımda uyurum."
+  },
+  {
+    "term": "bus",
+    "synonym": "coach",
+    "translation": "otobüs",
+    "example": "Take the bus to work.",
+    "exampleTranslation": "İşe otobüsle git."
+  },
+  {
+    "term": "train",
+    "synonym": "railway",
+    "translation": "tren",
+    "example": "The train is late.",
+    "exampleTranslation": "Tren gecikti."
+  },
+  {
+    "term": "plane",
+    "synonym": "aircraft",
+    "translation": "uçak",
+    "example": "The plane took off.",
+    "exampleTranslation": "Uçak kalktı."
+  },
+  {
+    "term": "ship",
+    "synonym": "vessel",
+    "translation": "gemi",
+    "example": "The ship is docked.",
+    "exampleTranslation": "Gemi limanda."
+  },
+  {
+    "term": "bicycle",
+    "synonym": "bike",
+    "translation": "bisiklet",
+    "example": "Ride a bicycle.",
+    "exampleTranslation": "Bisiklet sür."
+  },
+  {
+    "term": "road",
+    "synonym": "route",
+    "translation": "yol",
+    "example": "The road is closed.",
+    "exampleTranslation": "Yol kapalı."
+  },
+  {
+    "term": "street",
+    "synonym": "avenue",
+    "translation": "cadde",
+    "example": "Walk down the street.",
+    "exampleTranslation": "Caddede yürü."
+  },
+  {
+    "term": "city",
+    "synonym": "metropolis",
+    "translation": "şehir",
+    "example": "I live in a city.",
+    "exampleTranslation": "Bir şehirde yaşıyorum."
+  },
+  {
+    "term": "village",
+    "synonym": "hamlet",
+    "translation": "köy",
+    "example": "She grew up in a village.",
+    "exampleTranslation": "O bir köyde büyüdü."
+  },
+  {
+    "term": "country",
+    "synonym": "nation",
+    "translation": "ülke",
+    "example": "My country is beautiful.",
+    "exampleTranslation": "Ülkem güzel."
+  },
+  {
+    "term": "nature",
+    "synonym": "environment",
+    "translation": "doğa",
+    "example": "Respect nature.",
+    "exampleTranslation": "Doğaya saygı göster."
+  },
+  {
+    "term": "air",
+    "synonym": "atmosphere",
+    "translation": "hava",
+    "example": "Fresh air is good.",
+    "exampleTranslation": "Temiz hava iyidir."
+  },
+  {
+    "term": "sky",
+    "synonym": "heavens",
+    "translation": "gökyüzü",
+    "example": "The sky is blue.",
+    "exampleTranslation": "Gökyüzü mavi."
+  },
+  {
+    "term": "moon",
+    "synonym": "satellite",
+    "translation": "ay",
+    "example": "The moon is full.",
+    "exampleTranslation": "Ay dolunay."
+  },
+  {
+    "term": "star",
+    "synonym": "celestial body",
+    "translation": "yıldız",
+    "example": "See the stars tonight.",
+    "exampleTranslation": "Bu gece yıldızları gör."
+  },
+  {
+    "term": "rain",
+    "synonym": "shower",
+    "translation": "yağmur",
+    "example": "It's going to rain.",
+    "exampleTranslation": "Yağmur yağacak."
+  },
+  {
+    "term": "snow",
+    "synonym": "flurry",
+    "translation": "kar",
+    "example": "Snow is falling.",
+    "exampleTranslation": "Kar yağıyor."
+  },
+  {
+    "term": "wind",
+    "synonym": "breeze",
+    "translation": "rüzgar",
+    "example": "The wind is strong.",
+    "exampleTranslation": "Rüzgar güçlü."
+  },
+  {
+    "term": "cloud",
+    "synonym": "vapor",
+    "translation": "bulut",
+    "example": "The sky is cloudy.",
+    "exampleTranslation": "Gökyüzü bulutlu."
+  },
+  {
+    "term": "storm",
+    "synonym": "tempest",
+    "translation": "fırtına",
+    "example": "The storm is fierce.",
+    "exampleTranslation": "Fırtına şiddetli."
+  },
+  {
+    "term": "tree",
+    "synonym": "plant",
+    "translation": "ağaç",
+    "example": "The tree is tall.",
+    "exampleTranslation": "Ağaç uzun."
+  },
+  {
+    "term": "flower",
+    "synonym": "blossom",
+    "translation": "çiçek",
+    "example": "The flower smells nice.",
+    "exampleTranslation": "Çiçek güzel kokuyor."
+  },
+  {
+    "term": "grass",
+    "synonym": "turf",
+    "translation": "çim",
+    "example": "The grass is green.",
+    "exampleTranslation": "Çim yeşil."
+  },
+  {
+    "term": "animal",
+    "synonym": "creature",
+    "translation": "hayvan",
+    "example": "Zoo has many animals.",
+    "exampleTranslation": "Hayvanat bahçesinde birçok hayvan var."
+  },
+  {
+    "term": "dog",
+    "synonym": "canine",
+    "translation": "köpek",
+    "example": "The dog barks.",
+    "exampleTranslation": "Köpek havlıyor."
+  },
+  {
+    "term": "cat",
+    "synonym": "feline",
+    "translation": "kedi",
+    "example": "The cat sleeps.",
+    "exampleTranslation": "Kedi uyur."
+  },
+  {
+    "term": "bird",
+    "synonym": "avian",
+    "translation": "kuş",
+    "example": "The bird sings.",
+    "exampleTranslation": "Kuş şarkı söyler."
+  },
+  {
+    "term": "horse",
+    "synonym": "steed",
+    "translation": "at",
+    "example": "She rides a horse.",
+    "exampleTranslation": "O at biner."
+  },
+  {
+    "term": "cow",
+    "synonym": "cattle",
+    "translation": "inek",
+    "example": "The cow grazes.",
+    "exampleTranslation": "İnek otluyor."
+  },
+  {
+    "term": "farm",
+    "synonym": "ranch",
+    "translation": "çiftlik",
+    "example": "They live on a farm.",
+    "exampleTranslation": "Çiftlikte yaşıyorlar."
+  },
+  {
+    "term": "forest",
+    "synonym": "woods",
+    "translation": "orman",
+    "example": "Walk through the forest.",
+    "exampleTranslation": "Ormanın içinden yürü."
+  },
+  {
+    "term": "mountain",
+    "synonym": "peak",
+    "translation": "dağ",
+    "example": "Climb the mountain.",
+    "exampleTranslation": "Dağa tırman."
+  },
+  {
+    "term": "river",
+    "synonym": "stream",
+    "translation": "nehir",
+    "example": "The river flows fast.",
+    "exampleTranslation": "Nehir hızlı akar."
+  },
+  {
+    "term": "lake",
+    "synonym": "pond",
+    "translation": "göl",
+    "example": "Swim in the lake.",
+    "exampleTranslation": "Gölda yüz."
+  },
+  {
+    "term": "sea",
+    "synonym": "ocean",
+    "translation": "deniz",
+    "example": "The sea is calm.",
+    "exampleTranslation": "Deniz sakin."
+  },
+  {
+    "term": "ocean",
+    "synonym": "marine",
+    "translation": "okyanus",
+    "example": "Explore the ocean.",
+    "exampleTranslation": "Okyanusu keşfet."
+  },
+  {
+    "term": "valley",
+    "synonym": "dale",
+    "translation": "vadi",
+    "example": "The valley is deep.",
+    "exampleTranslation": "Vadi derin."
+  },
+  {
+    "term": "desert",
+    "synonym": "wasteland",
+    "translation": "çöl",
+    "example": "The desert is vast.",
+    "exampleTranslation": "Çöl geniş."
+  },
+  {
+    "term": "island",
+    "synonym": "isle",
+    "translation": "ada",
+    "example": "They live on an island.",
+    "exampleTranslation": "Bir adada yaşıyorlar."
+  },
+  {
+    "term": "beach",
+    "synonym": "shore",
+    "translation": "plaj",
+    "example": "Relax on the beach.",
+    "exampleTranslation": "Plajda dinlen."
+  },
+  {
+    "term": "beautiful",
+    "synonym": "attractive",
+    "translation": "güzel",
+    "example": "She has a beautiful smile.",
+    "exampleTranslation": "Güzel bir gülümsemesi var."
+  },
+  {
+    "term": "important",
+    "synonym": "significant",
+    "translation": "önemli",
+    "example": "Education is important.",
+    "exampleTranslation": "Eğitim önemlidir."
+  },
+  {
+    "term": "possible",
+    "synonym": "feasible",
+    "translation": "mümkün",
+    "example": "Anything is possible.",
+    "exampleTranslation": "Her şey mümkündür."
+  },
+  {
+    "term": "impossible",
+    "synonym": "unfeasible",
+    "translation": "imkansız",
+    "example": "That's impossible to believe.",
+    "exampleTranslation": "Buna inanmak imkansız."
+  },
+  {
+    "term": "real",
+    "synonym": "genuine",
+    "translation": "gerçek",
+    "example": "Is this a real diamond?",
+    "exampleTranslation": "Bu gerçek bir elmas mı?"
+  },
+  {
+    "term": "mere",
+    "synonym": "only",
+    "translation": "sadece",
+    "example": "It’s a mere detail.",
+    "exampleTranslation": "Bu sadece bir detay."
+  },
+  {
+    "term": "similar",
+    "synonym": "alike",
+    "translation": "benzer",
+    "example": "These two books are similar.",
+    "exampleTranslation": "Bu iki kitap birbirine benziyor."
+  },
+  {
+    "term": "difficult",
+    "synonym": "hard",
+    "translation": "zor",
+    "example": "This problem is difficult.",
+    "exampleTranslation": "Bu problem zor."
+  },
+  {
+    "term": "easy",
+    "synonym": "simple",
+    "translation": "kolay",
+    "example": "The test was easy.",
+    "exampleTranslation": "Sınav kolaydı."
+  },
+  {
+    "term": "interesting",
+    "synonym": "fascinating",
+    "translation": "ilginç",
+    "example": "This book is interesting.",
+    "exampleTranslation": "Bu kitap ilginç."
+  },
+  {
+    "term": "boring",
+    "synonym": "tedious",
+    "translation": "sıkıcı",
+    "example": "The lecture was boring.",
+    "exampleTranslation": "Ders sıkıcıydı."
+  },
+  {
+    "term": "necessary",
+    "synonym": "essential",
+    "translation": "gerekli",
+    "example": "It’s necessary to study.",
+    "exampleTranslation": "Çalışmak gerekli."
+  },
+  {
+    "term": "unnecessary",
+    "synonym": "redundant",
+    "translation": "gereksiz",
+    "example": "That comment was unnecessary.",
+    "exampleTranslation": "O yorum gereksizdi."
+  },
+  {
+    "term": "available",
+    "synonym": "accessible",
+    "translation": "mevcut",
+    "example": "The file is available online.",
+    "exampleTranslation": "Dosya çevrimiçi mevcut."
+  },
+  {
+    "term": "unavailable",
+    "synonym": "inaccessible",
+    "translation": "ulaşılamaz",
+    "example": "The service is unavailable.",
+    "exampleTranslation": "Hizmete ulaşılamıyor."
+  },
+  {
+    "term": "related",
+    "synonym": "connected",
+    "translation": "ilişkili",
+    "example": "These topics are related.",
+    "exampleTranslation": "Bu konular ilişkili."
+  },
+  {
+    "term": "separate",
+    "synonym": "distinct",
+    "translation": "ayrı",
+    "example": "Keep work and home separate.",
+    "exampleTranslation": "İşle evi ayrı tut."
+  },
+  {
+    "term": "common",
+    "synonym": "ordinary",
+    "translation": "yaygın",
+    "example": "This is a common mistake.",
+    "exampleTranslation": "Bu yaygın bir hata."
+  },
+  {
+    "term": "rare",
+    "synonym": "uncommon",
+    "translation": "nadir",
+    "example": "Such events are rare.",
+    "exampleTranslation": "Böyle olaylar nadirdir."
+  },
+  {
+    "term": "certain",
+    "synonym": "sure",
+    "translation": "kesin",
+    "example": "Are you certain?",
+    "exampleTranslation": "Emin misin?"
+  },
+  {
+    "term": "false",
+    "synonym": "untrue",
+    "translation": "yanlış",
+    "example": "That statement is false.",
+    "exampleTranslation": "O ifade yanlış."
+  },
+  {
+    "term": "true",
+    "synonym": "accurate",
+    "translation": "doğru",
+    "example": "Tell me the true story.",
+    "exampleTranslation": "Gerçek hikâyeyi anlat."
+  },
+  {
+    "term": "present",
+    "synonym": "current",
+    "translation": "mevcut",
+    "example": "The present moment is precious.",
+    "exampleTranslation": "Şimdiki an değerlidir."
+  },
+  {
+    "term": "absent",
+    "synonym": "missing",
+    "translation": "yok",
+    "example": "He was absent yesterday.",
+    "exampleTranslation": "O dün yoktu."
+  },
+  {
+    "term": "active",
+    "synonym": "energetic",
+    "translation": "aktif",
+    "example": "She leads an active life.",
+    "exampleTranslation": "Aktif bir hayat sürüyor."
+  },
+  {
+    "term": "passive",
+    "synonym": "inactive",
+    "translation": "pasif",
+    "example": "He remained passive.",
+    "exampleTranslation": "Pasif kaldı."
+  },
+  {
+    "term": "discover",
+    "synonym": "find",
+    "translation": "keşfetmek",
+    "example": "They discovered a new planet.",
+    "exampleTranslation": "Yeni bir gezegen keşfettiler."
+  },
+  {
+    "term": "achieve",
+    "synonym": "accomplish",
+    "translation": "başarmak",
+    "example": "She achieved her goal.",
+    "exampleTranslation": "Hedefine ulaştı."
+  },
+  {
+    "term": "avoid",
+    "synonym": "evade",
+    "translation": "kaçınmak",
+    "example": "Avoid making mistakes.",
+    "exampleTranslation": "Hata yapmaktan kaçın."
+  },
+  {
+    "term": "enjoy",
+    "synonym": "like",
+    "translation": "zevk almak",
+    "example": "I enjoy reading.",
+    "exampleTranslation": "Okumaktan zevk alırım."
+  },
+  {
+    "term": "admire",
+    "synonym": "respect",
+    "translation": "hayran olmak",
+    "example": "I admire her courage.",
+    "exampleTranslation": "Onun cesaretine hayranım."
+  },
+  {
+    "term": "belong",
+    "synonym": "fit",
+    "translation": "ait olmak",
+    "example": "You belong here.",
+    "exampleTranslation": "Buraya aitsin."
+  },
+  {
+    "term": "prevent",
+    "synonym": "stop",
+    "translation": "önlemek",
+    "example": "Vaccines prevent disease.",
+    "exampleTranslation": "Aşılar hastalığı önler."
+  },
+  {
+    "term": "survive",
+    "synonym": "endure",
+    "translation": "hayatta kalmak",
+    "example": "He survived the crash.",
+    "exampleTranslation": "Kaza sonrasında hayatta kaldı."
+  },
+  {
+    "term": "imagine",
+    "synonym": "envision",
+    "translation": "hayal etmek",
+    "example": "Imagine a better world.",
+    "exampleTranslation": "Daha iyi bir dünya hayal et."
+  },
+  {
+    "term": "recognize",
+    "synonym": "identify",
+    "translation": "tanımak",
+    "example": "I recognize that face.",
+    "exampleTranslation": "O yüzü tanıyorum."
+  },
+  {
+    "term": "disappear",
+    "synonym": "vanish",
+    "translation": "ortadan kaybolmak",
+    "example": "The sun disappeared behind clouds.",
+    "exampleTranslation": "Güneş bulutların arkasına kayboldu."
+  },
+  {
+    "term": "increase",
+    "synonym": "rise",
+    "translation": "artmak",
+    "example": "Prices increase every year.",
+    "exampleTranslation": "Fiyatlar her yıl artıyor."
+  },
+  {
+    "term": "decrease",
+    "synonym": "drop",
+    "translation": "azalmak",
+    "example": "Sales decrease in winter.",
+    "exampleTranslation": "Kışın satışlar azalır."
+  },
+  {
+    "term": "advance",
+    "synonym": "progress",
+    "translation": "ilerlemek",
+    "example": "Technology advances quickly.",
+    "exampleTranslation": "Teknoloji hızla ilerler."
+  },
+  {
+    "term": "delay",
+    "synonym": "postpone",
+    "translation": "ertelemek",
+    "example": "They delayed the meeting.",
+    "exampleTranslation": "Toplantıyı ertelediler."
+  },
+  {
+    "term": "retire",
+    "synonym": "withdraw",
+    "translation": "emekli olmak",
+    "example": "He plans to retire soon.",
+    "exampleTranslation": "Yakında emekli olmayı planlıyor."
+  },
+  {
+    "term": "advance",
+    "synonym": "further",
+    "translation": "geliştirmek",
+    "example": "He advanced his career.",
+    "exampleTranslation": "Kariyerini geliştirdi."
+  },
+  {
+    "term": "supply",
+    "synonym": "provide",
+    "translation": "tedarik etmek",
+    "example": "They supply fresh water.",
+    "exampleTranslation": "Temiz su sağlıyorlar."
+  },
+  {
+    "term": "maintain",
+    "synonym": "preserve",
+    "translation": "korumak",
+    "example": "Maintain good health.",
+    "exampleTranslation": "Sağlığı koru."
+  },
+  {
+    "term": "finish",
+    "synonym": "complete",
+    "translation": "bitirmek",
+    "example": "Finish your homework.",
+    "exampleTranslation": "Ödevini bitir."
+  },
+  {
+    "term": "wait",
+    "synonym": "remain",
+    "translation": "beklemek",
+    "example": "Wait for the bus.",
+    "exampleTranslation": "Otobüsü bekle."
+  },
+  {
+    "term": "advance",
+    "synonym": "move forward",
+    "translation": "ilerlemek",
+    "example": "Advance to the next level.",
+    "exampleTranslation": "Sonraki seviyeye ilerle."
+  },
+  {
+    "term": "pull",
+    "synonym": "tug",
+    "translation": "çekmek",
+    "example": "Pull the rope.",
+    "exampleTranslation": "Halatı çek."
+  },
+  {
+    "term": "push",
+    "synonym": "shove",
+    "translation": "itmek",
+    "example": "Push the door open.",
+    "exampleTranslation": "Kapıyı iterek aç."
+  },
+  {
+    "term": "throw",
+    "synonym": "toss",
+    "translation": "fırlatmak",
+    "example": "Throw the ball.",
+    "exampleTranslation": "Topu fırlat."
+  },
+  {
+    "term": "catch",
+    "synonym": "seize",
+    "translation": "yakalamak",
+    "example": "Catch the train.",
+    "exampleTranslation": "Treni yakala."
+  },
+  {
+    "term": "invent",
+    "synonym": "create",
+    "translation": "icat etmek",
+    "example": "He invented a new device.",
+    "exampleTranslation": "Yeni bir cihaz icat etti."
+  },
+  {
+    "term": "protect",
+    "synonym": "secure",
+    "translation": "korumak",
+    "example": "Wear a helmet to protect your head.",
+    "exampleTranslation": "Kafanı korumak için kask tak."
+  },
+  {
+    "term": "measure",
+    "synonym": "calculate",
+    "translation": "ölçmek",
+    "example": "Measure the distance.",
+    "exampleTranslation": "Mesafeyi ölç."
+  },
+  {
+    "term": "improve",
+    "synonym": "enhance",
+    "translation": "iyileştirmek",
+    "example": "Improve your skills.",
+    "exampleTranslation": "Becerilerini geliştir."
+  },
+  {
+    "term": "reduce",
+    "synonym": "lower",
+    "translation": "azaltmak",
+    "example": "Reduce your expenses.",
+    "exampleTranslation": "Giderlerini azalt."
+  },
+  {
+    "term": "encourage",
+    "synonym": "inspire",
+    "translation": "teşvik etmek",
+    "example": "Encourage good behavior.",
+    "exampleTranslation": "İyi davranışı teşvik et."
+  },
+  {
+    "term": "challenge",
+    "synonym": "test",
+    "translation": "meydan okumak",
+    "example": "He accepted the challenge.",
+    "exampleTranslation": "Meydan okumayı kabul etti."
+  },
+  {
+    "term": "solve",
+    "synonym": "resolve",
+    "translation": "çözmek",
+    "example": "Solve the puzzle.",
+    "exampleTranslation": "Bulmacayı çöz."
+  },
+  {
+    "term": "join",
+    "synonym": "connect",
+    "translation": "katılmak",
+    "example": "Join the club.",
+    "exampleTranslation": "Kulübe katıl."
+  },
+  {
+    "term": "recommend",
+    "synonym": "suggest",
+    "translation": "tavsiye etmek",
+    "example": "I recommend this movie.",
+    "exampleTranslation": "Bu filmi tavsiye ederim."
+  },
+  {
+    "term": "advise",
+    "synonym": "counsel",
+    "translation": "tavsiye vermek",
+    "example": "Advise him wisely.",
+    "exampleTranslation": "Ona akıllıca tavsiye ver."
+  },
+  {
+    "term": "notice",
+    "synonym": "observe",
+    "translation": "fark etmek",
+    "example": "Did you notice that?",
+    "exampleTranslation": "Bunu fark ettin mi?"
+  },
+  {
+    "term": "mention",
+    "synonym": "bring up",
+    "translation": "bahsetmek",
+    "example": "Mention your experience.",
+    "exampleTranslation": "Deneyiminden bahset."
+  },
+  {
+    "term": "explain",
+    "synonym": "clarify",
+    "translation": "açıklamak",
+    "example": "Explain the rules clearly.",
+    "exampleTranslation": "Kuralları net bir şekilde açıkla."
+  },
+  {
+    "term": "describe",
+    "synonym": "depict",
+    "translation": "tasvir etmek",
+    "example": "Describe the scenery.",
+    "exampleTranslation": "Manzarayı tasvir et."
+  },
+  {
+    "term": "report",
+    "synonym": "inform",
+    "translation": "rapor etmek",
+    "example": "Report any issues immediately.",
+    "exampleTranslation": "Herhangi bir konuyu hemen rapor edin."
+  },
+  {
+    "term": "report",
+    "synonym": "account",
+    "translation": "rapor",
+    "example": "Write a report.",
+    "exampleTranslation": "Bir rapor yaz."
+  },
+  {
+    "term": "respond",
+    "synonym": "reply",
+    "translation": "yanıtlamak",
+    "example": "Respond to the email.",
+    "exampleTranslation": "E-postaya yanıt ver."
+  },
+  {
+    "term": "principle",
+    "synonym": "rule",
+    "translation": "ilke",
+    "example": "He follows the principle of honesty.",
+    "exampleTranslation": "Dürüstlük ilkesini takip eder."
+  },
+  {
+    "term": "theory",
+    "synonym": "hypothesis",
+    "translation": "teori",
+    "example": "Einstein's theory changed physics.",
+    "exampleTranslation": "Einstein'ın teorisi fiziği değiştirdi."
+  },
+  {
+    "term": "hypothesis",
+    "synonym": "assumption",
+    "translation": "varsayım",
+    "example": "Test the hypothesis in the lab.",
+    "exampleTranslation": "Varsayımı laboratuvarda test et."
+  },
+  {
+    "term": "evidence",
+    "synonym": "proof",
+    "translation": "kanıt",
+    "example": "We need evidence to support the claim.",
+    "exampleTranslation": "İddianın desteklenmesi için kanıta ihtiyacımız var."
+  },
+  {
+    "term": "experiment",
+    "synonym": "trial",
+    "translation": "deney",
+    "example": "The experiment yielded interesting results.",
+    "exampleTranslation": "Deney ilginç sonuçlar verdi."
+  },
+  {
+    "term": "variable",
+    "synonym": "factor",
+    "translation": "değişken",
+    "example": "Temperature is a key variable.",
+    "exampleTranslation": "Sıcaklık önemli bir değişkendir."
+  },
+  {
+    "term": "constant",
+    "synonym": "fixed",
+    "translation": "sabit",
+    "example": "Pi is a mathematical constant.",
+    "exampleTranslation": "Pi matematiksel bir sabittir."
+  },
+  {
+    "term": "sample",
+    "synonym": "specimen",
+    "translation": "örnek",
+    "example": "Collect a water sample.",
+    "exampleTranslation": "Bir su örneği topla."
+  },
+  {
+    "term": "population",
+    "synonym": "community",
+    "translation": "nüfus",
+    "example": "The population of the city is growing.",
+    "exampleTranslation": "Şehrin nüfusu artıyor."
+  },
+  {
+    "term": "survey",
+    "synonym": "poll",
+    "translation": "anket",
+    "example": "Complete the customer survey.",
+    "exampleTranslation": "Müşteri anketini doldurun."
+  },
+  {
+    "term": "questionnaire",
+    "synonym": "form",
+    "translation": "soru listesi",
+    "example": "Fill out the questionnaire.",
+    "exampleTranslation": "Soru listesini doldurun."
+  },
+  {
+    "term": "measurement",
+    "synonym": "dimension",
+    "translation": "ölçüm",
+    "example": "Accuracy of measurement matters.",
+    "exampleTranslation": "Ölçümün doğruluğu önemlidir."
+  },
+  {
+    "term": "observation",
+    "synonym": "notice",
+    "translation": "gözlem",
+    "example": "Make careful observations.",
+    "exampleTranslation": "Dikkatli gözlemler yapın."
+  },
+  {
+    "term": "calculation",
+    "synonym": "computation",
+    "translation": "hesaplama",
+    "example": "Perform the calculation again.",
+    "exampleTranslation": "Hesaplamayı tekrar yap."
+  },
+  {
+    "term": "assumption",
+    "synonym": "presumption",
+    "translation": "varsayım",
+    "example": "Don't make unfounded assumptions.",
+    "exampleTranslation": "Temelsiz varsayımlar yapma."
+  },
+  {
+    "term": "model",
+    "synonym": "representation",
+    "translation": "model",
+    "example": "Build a 3D model.",
+    "exampleTranslation": "3D bir model oluştur."
+  },
+  {
+    "term": "framework",
+    "synonym": "structure",
+    "translation": "çerçeve",
+    "example": "Use this legal framework.",
+    "exampleTranslation": "Bu yasal çerçeveyi kullanın."
+  },
+  {
+    "term": "paradigm",
+    "synonym": "pattern",
+    "translation": "paradigma",
+    "example": "The new paradigm shifts thinking.",
+    "exampleTranslation": "Yeni paradigma düşünceyi değiştirir."
+  },
+  {
+    "term": "bias",
+    "synonym": "prejudice",
+    "translation": "önyargı",
+    "example": "Eliminate bias in experiments.",
+    "exampleTranslation": "Deneylerde önyargıyı ortadan kaldırın."
+  },
+  {
+    "term": "correlation",
+    "synonym": "link",
+    "translation": "korelasyon",
+    "example": "There's a correlation between variables.",
+    "exampleTranslation": "Değişkenler arasında korelasyon var."
+  },
+  {
+    "term": "causation",
+    "synonym": "cause",
+    "translation": "nedensellik",
+    "example": "Causation differs from correlation.",
+    "exampleTranslation": "Nedensellik korelasyondan farklıdır."
+  },
+  {
+    "term": "probability",
+    "synonym": "likelihood",
+    "translation": "olasılık",
+    "example": "Calculate the probability of success.",
+    "exampleTranslation": "Başarı olasılığını hesaplayın."
+  },
+  {
+    "term": "statistics",
+    "synonym": "data analysis",
+    "translation": "istatistik",
+    "example": "Statistics reveal patterns.",
+    "exampleTranslation": "İstatistikler kalıpları ortaya çıkarır."
+  },
+  {
+    "term": "distribution",
+    "synonym": "spread",
+    "translation": "dağılım",
+    "example": "Plot the data distribution.",
+    "exampleTranslation": "Veri dağılımını grafiğe dökün."
+  },
+  {
+    "term": "median",
+    "synonym": "middle value",
+    "translation": "medyan",
+    "example": "Find the median of the set.",
+    "exampleTranslation": "Kümmenin medyanını bulun."
+  },
+  {
+    "term": "mode",
+    "synonym": "most frequent",
+    "translation": "mod",
+    "example": "Identify the mode.",
+    "exampleTranslation": "Modu belirleyin."
+  },
+  {
+    "term": "range",
+    "synonym": "span",
+    "translation": "aralık",
+    "example": "Calculate the range.",
+    "exampleTranslation": "Aralığı hesaplayın."
+  },
+  {
+    "term": "variance",
+    "synonym": "dispersion",
+    "translation": "varyans",
+    "example": "Compute the variance.",
+    "exampleTranslation": "Varyansı hesaplayın."
+  },
+  {
+    "term": "axis",
+    "synonym": "reference line",
+    "translation": "eksen",
+    "example": "Label the x-axis.",
+    "exampleTranslation": "x eksenini etiketleyin."
+  },
+  {
+    "term": "algorithm",
+    "synonym": "procedure",
+    "translation": "algoritma",
+    "example": "Design an efficient algorithm.",
+    "exampleTranslation": "Verimli bir algoritma tasarlayın."
+  },
+  {
+    "term": "code",
+    "synonym": "script",
+    "translation": "kod",
+    "example": "Write clean code.",
+    "exampleTranslation": "Temiz kod yazın."
+  },
+  {
+    "term": "program",
+    "synonym": "application",
+    "translation": "program",
+    "example": "Run the program.",
+    "exampleTranslation": "Programı çalıştırın."
+  },
+  {
+    "term": "software",
+    "synonym": "application",
+    "translation": "yazılım",
+    "example": "Install the software update.",
+    "exampleTranslation": "Yazılım güncellemesini yükleyin."
+  },
+  {
+    "term": "hardware",
+    "synonym": "equipment",
+    "translation": "donanım",
+    "example": "Upgrade your hardware.",
+    "exampleTranslation": "Donanımınızı yükseltin."
+  },
+  {
+    "term": "network",
+    "synonym": "grid",
+    "translation": "ağ",
+    "example": "Connect to the network.",
+    "exampleTranslation": "Ağa bağlanın."
+  },
+  {
+    "term": "server",
+    "synonym": "host",
+    "translation": "sunucu",
+    "example": "Restart the server.",
+    "exampleTranslation": "Sunucuyu yeniden başlatın."
+  },
+  {
+    "term": "client",
+    "synonym": "customer",
+    "translation": "istemci",
+    "example": "The client requested changes.",
+    "exampleTranslation": "İstemci değişiklik talep etti."
+  },
+  {
+    "term": "database",
+    "synonym": "repository",
+    "translation": "veritabanı",
+    "example": "Backup the database.",
+    "exampleTranslation": "Veritabanını yedekleyin."
+  },
+  {
+    "term": "query",
+    "synonym": "request",
+    "translation": "sorgu",
+    "example": "Run the SQL query.",
+    "exampleTranslation": "SQL sorgusunu çalıştırın."
+  },
+  {
+    "term": "protocol",
+    "synonym": "standard",
+    "translation": "protokol",
+    "example": "Follow the communication protocol.",
+    "exampleTranslation": "İletişim protokolüne uyun."
+  },
+  {
+    "term": "interface",
+    "synonym": "UI",
+    "translation": "arayüz",
+    "example": "Design a user-friendly interface.",
+    "exampleTranslation": "Kullanıcı dostu bir arayüz tasarlayın."
+  },
+  {
+    "term": "encryption",
+    "synonym": "encoding",
+    "translation": "şifreleme",
+    "example": "Enable data encryption.",
+    "exampleTranslation": "Veri şifrelemeyi etkinleştirin."
+  },
+  {
+    "term": "security",
+    "synonym": "protection",
+    "translation": "güvenlik",
+    "example": "Implement security measures.",
+    "exampleTranslation": "Güvenlik önlemleri uygulayın."
+  },
+  {
+    "term": "backup",
+    "synonym": "save",
+    "translation": "yedek",
+    "example": "Create a backup daily.",
+    "exampleTranslation": "Günlük yedek oluşturun."
+  },
+  {
+    "term": "restore",
+    "synonym": "recover",
+    "translation": "geri yüklemek",
+    "example": "Restore the system from backup.",
+    "exampleTranslation": "Sistemi yedekten geri yükleyin."
+  },
+  {
+    "term": "upload",
+    "synonym": "send",
+    "translation": "yüklemek",
+    "example": "Upload the file here.",
+    "exampleTranslation": "Dosyayı buraya yükleyin."
+  },
+  {
+    "term": "download",
+    "synonym": "receive",
+    "translation": "indirmek",
+    "example": "Download the document.",
+    "exampleTranslation": "Belgeyi indirin."
+  },
+  {
+    "term": "install",
+    "synonym": "set up",
+    "translation": "kurmak",
+    "example": "Install the application.",
+    "exampleTranslation": "Uygulamayı kurun."
+  },
+  {
+    "term": "update",
+    "synonym": "upgrade",
+    "translation": "güncelleme",
+    "example": "Check for updates regularly.",
+    "exampleTranslation": "Düzenli olarak güncellemeleri kontrol edin."
+  },
+  {
+    "term": "delete",
+    "synonym": "remove",
+    "translation": "silmek",
+    "example": "Delete unnecessary files.",
+    "exampleTranslation": "Gereksiz dosyaları silin."
+  },
+  {
+    "term": "copy",
+    "synonym": "duplicate",
+    "translation": "kopyalamak",
+    "example": "Copy the text to clipboard.",
+    "exampleTranslation": "Metni panoya kopyalayın."
+  },
+  {
+    "term": "paste",
+    "synonym": "insert",
+    "translation": "yapıştırmak",
+    "example": "Paste it into the document.",
+    "exampleTranslation": "Belgeye yapıştırın."
+  },
+  {
+    "term": "compile",
+    "synonym": "build",
+    "translation": "derlemek",
+    "example": "Compile the source code.",
+    "exampleTranslation": "Kaynak kodu derleyin."
+  },
+  {
+    "term": "debug",
+    "synonym": "troubleshoot",
+    "translation": "hata ayıklamak",
+    "example": "Debug the application errors.",
+    "exampleTranslation": "Uygulama hatalarını ayıklayın."
+  },
+  {
+    "term": "execute",
+    "synonym": "run",
+    "translation": "çalıştırmak",
+    "example": "Execute the script.",
+    "exampleTranslation": "Script'i çalıştırın."
+  },
+  {
+    "term": "monitor",
+    "synonym": "observe",
+    "translation": "izlemek",
+    "example": "Monitor system performance.",
+    "exampleTranslation": "Sistem performansını izleyin."
+  },
+  {
+    "term": "optimize",
+    "synonym": "improve",
+    "translation": "optimize etmek",
+    "example": "Optimize the code for speed.",
+    "exampleTranslation": "Kodu hız için optimize edin."
+  },
+  {
+    "term": "scale",
+    "synonym": "expand",
+    "translation": "ölçeklemek",
+    "example": "Scale the application to many users.",
+    "exampleTranslation": "Uygulamayı birçok kullanıcıya ölçekleyin."
+  },
+  {
+    "term": "deploy",
+    "synonym": "release",
+    "translation": "yayınlamak",
+    "example": "Deploy the latest version.",
+    "exampleTranslation": "En son sürümü yayınlayın."
+  },
+  {
+    "term": "maintain",
+    "synonym": "upkeep",
+    "translation": "bakım yapmak",
+    "example": "Maintain the equipment regularly.",
+    "exampleTranslation": "Ekipmana düzenli bakım yapın."
+  },
+  {
+    "term": "monitor",
+    "synonym": "track",
+    "translation": "izlemek",
+    "example": "Monitor user feedback.",
+    "exampleTranslation": "Kullanıcı geri bildirimlerini izleyin."
+  },
+  {
+    "term": "archive",
+    "synonym": "store",
+    "translation": "arşivlemek",
+    "example": "Archive old records.",
+    "exampleTranslation": "Eski kayıtları arşivleyin."
+  },
+  {
+    "term": "migrate",
+    "synonym": "transfer",
+    "translation": "taşımak",
+    "example": "Migrate data to the cloud.",
+    "exampleTranslation": "Verileri buluta taşıyın."
+  },
+  {
+    "term": "synchronize",
+    "synonym": "align",
+    "translation": "eşitlemek",
+    "example": "Synchronize your files.",
+    "exampleTranslation": "Dosyalarınızı eşitleyin."
+  },
+  {
+    "term": "authenticate",
+    "synonym": "verify",
+    "translation": "kimlik doğrulamak",
+    "example": "Authenticate user credentials.",
+    "exampleTranslation": "Kullanıcı kimlik bilgilerini doğrulayın."
+  },
+  {
+    "term": "authorize",
+    "synonym": "permit",
+    "translation": "yetkilendirmek",
+    "example": "Authorize the payment.",
+    "exampleTranslation": "Ödemeyi yetkilendir."
+  },
+  {
+    "term": "encrypt",
+    "synonym": "encode",
+    "translation": "şifrelemek",
+    "example": "Encrypt sensitive data.",
+    "exampleTranslation": "Hassas verileri şifreleyin."
+  },
+  {
+    "term": "decrypt",
+    "synonym": "decode",
+    "translation": "şifre çözmek",
+    "example": "Decrypt the message.",
+    "exampleTranslation": "Mesajın şifresini çözün."
+  },
+  {
+    "term": "trace",
+    "synonym": "track",
+    "translation": "iz sürmek",
+    "example": "Trace the network packet.",
+    "exampleTranslation": "Ağ paketini iz sürün."
+  },
+  {
+    "term": "log",
+    "synonym": "record",
+    "translation": "kaydetmek",
+    "example": "Log all errors.",
+    "exampleTranslation": "Tüm hataları kaydedin."
   }
 ]

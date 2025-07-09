@@ -137,7 +137,7 @@ export function FlashcardStudy() {
                                     variant={filter === val ? "default" : "ghost"}
                                     size="sm"
                                     className="rounded-full h-8 px-3 text-xs"
-                                    onClick={() => setFilter(val)}
+                                    onClick={() => setFilter(val as "all" | "toLearn" | "learned")}
                                 >
                                     {label}
                                 </Button>

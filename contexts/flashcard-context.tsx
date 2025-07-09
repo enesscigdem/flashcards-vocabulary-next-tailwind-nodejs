@@ -36,7 +36,7 @@ interface FlashcardContextType {
     sessionStats: SessionStats
     next: () => void
     prev: () => void
-    markLearned: (id: string) => void
+    markLearned: (id: string) => Promise<void>
     markDifficult: (id: string) => void
     setFilter: (filter: "all" | "learned" | "toLearn") => void
 }
@@ -97,9 +97,16 @@ export function FlashcardProvider({ children }: { children: ReactNode }) {
         setCurrentIndex(i => (i - 1 + filteredCards.length) % filteredCards.length)
     }
 
-    const markLearned = (id: string) => {
-        setSessionStats(s => ({ ...s, correct: s.correct + 1 }))
-        setCards(cs => cs.map(c => c.id === id ? { ...c, learned: true } : c))
+    // Öğrendi olarak işaretle: API çağrısı ve state güncelleme
+    const markLearned = async (id: string) => {
+        try {
+            const res = await fetch(`/api/words/${id}/learn`, { method: 'POST' })
+            if (!res.ok) throw new Error(`Failed to mark learned: ${res.status}`)
+            setSessionStats(s => ({ ...s, correct: s.correct + 1 }))
+            setCards(cs => cs.map(c => c.id === id ? { ...c, learned: true } : c))
+        } catch (err) {
+            console.error('Error marking learned:', err)
+        }
     }
 
     const markDifficult = (id: string) => {

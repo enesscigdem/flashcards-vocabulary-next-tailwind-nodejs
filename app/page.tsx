@@ -1,8 +1,8 @@
-'use client'
-import FlashcardViewer from '@/components/FlashcardViewer'
+"use client"
 
-export default function Page(){
-  return (
-      <FlashcardViewer />
-  )
+import { FlashcardStudy } from "@/components/flashcard-study"
+
+export default function Page() {
+  // Single-page study view – no dashboard, sidebar, or header.
+  return <FlashcardStudy />
 }

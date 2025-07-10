@@ -1,0 +1,1682 @@
+[
+  {
+    "term": "Introduction",
+    "synonym": "Opening",
+    "translation": "Tanıtım",
+    "example": "During my Introduction I said, “Hello, my name is Enes Çiğdem.”",
+    "exampleTranslation": "Tanıtımım sırasında, “Merhaba, benim adım Enes Çiğdem.” dedim."
+  },
+  {
+    "term": "Graduation",
+    "synonym": "Commencement",
+    "translation": "Mezuniyet",
+    "example": "At my Graduation I celebrated finishing Computer Engineering in 2024.",
+    "exampleTranslation": "Mezuniyetimde 2024’te Bilgisayar Mühendisliği’ni bitirmeyi kutladım."
+  },
+  {
+    "term": "Experience",
+    "synonym": "Background",
+    "translation": "Deneyim",
+    "example": "My Experience includes three years as a Full Stack Developer.",
+    "exampleTranslation": "Deneyimim, Tam Yığın Geliştirici olarak üç yılı kapsıyor."
+  },
+  {
+    "term": "Residence",
+    "synonym": "Location",
+    "translation": "İkamet",
+    "example": "My Residence is İzmir, Turkey, where I enjoy the coastline.",
+    "exampleTranslation": "İkametim Türkiye, İzmir; burada sahilin keyfini çıkarıyorum."
+  },
+  {
+    "term": "Family",
+    "synonym": "Relatives",
+    "translation": "Aile",
+    "example": "My Family is close-knit and supports my career choices.",
+    "exampleTranslation": "Ailem sıkı bağlara sahip ve kariyer seçimlerimi destekliyor."
+  },
+  {
+    "term": "Hobbies",
+    "synonym": "Interests",
+    "translation": "Hobiler",
+    "example": "My Hobbies include reading and hiking on weekends.",
+    "exampleTranslation": "Hobilerim arasında hafta sonları kitap okumak ve doğa yürüyüşü var."
+  },
+  {
+    "term": "Languages",
+    "synonym": "Tongues",
+    "translation": "Diller",
+    "example": "I practice my Languages daily, including English and Spanish.",
+    "exampleTranslation": "Günlük olarak İngilizce ve İspanyolca dillerimi pratik yapıyorum."
+  },
+  {
+    "term": "Cooking",
+    "synonym": "Culinary",
+    "translation": "Yemek Pişirme",
+    "example": "I love Cooking new recipes during my free time.",
+    "exampleTranslation": "Boş zamanlarımda yeni tarifler denemeyi seviyorum."
+  },
+  {
+    "term": "Sibling",
+    "synonym": "BrotherOrSister",
+    "translation": "Kardeş",
+    "example": "My Sibling is a graphic designer and inspires my creativity.",
+    "exampleTranslation": "Kardeşim grafik tasarımcı ve yaratıcılığıma ilham veriyor."
+  },
+  {
+    "term": "Passion",
+    "synonym": "Enthusiasm",
+    "translation": "Tutku",
+    "example": "My Passion for technology drives me to learn daily.",
+    "exampleTranslation": "Teknolojiye olan tutkum, her gün öğrenmeme neden oluyor."
+  },
+  {
+    "term": "Balance",
+    "synonym": "Equilibrium",
+    "translation": "Denge",
+    "example": "I seek Balance between work and personal life.",
+    "exampleTranslation": "İş ve özel hayat arasında denge kurmaya özen gösteririm."
+  },
+  {
+    "term": "Sport",
+    "synonym": "Athletics",
+    "translation": "Spor",
+    "example": "I enjoy Sport like basketball in my free time.",
+    "exampleTranslation": "Boş zamanlarımda basketbol gibi sporlardan hoşlanırım."
+  },
+  {
+    "term": "Volunteering",
+    "synonym": "Charity",
+    "translation": "Gönüllülük",
+    "example": "Volunteering at community events fulfills me.",
+    "exampleTranslation": "Topluluk etkinliklerinde gönüllü olmak beni tatmin ediyor."
+  },
+  {
+    "term": "Creativity",
+    "synonym": "Originality",
+    "translation": "Yaratıcılık",
+    "example": "I use my Creativity to design innovative solutions.",
+    "exampleTranslation": "Yaratıcılığımı yenilikçi çözümler tasarlamak için kullanırım."
+  },
+  {
+    "term": "Hometown",
+    "synonym": "Origin",
+    "translation": "Memleket",
+    "example": "My Hometown is İzmir, known for its vibrant tech scene.",
+    "exampleTranslation": "Memleketim İzmir; canlı bir teknoloji ortamıyla bilinir."
+  },
+  {
+    "term": "Certification",
+    "synonym": "Credential",
+    "translation": "Sertifika",
+    "example": "I earned a Certification in Azure Fundamentals last year.",
+    "exampleTranslation": "Geçen yıl Azure Fundamentals sertifikası aldım."
+  },
+  {
+    "term": "MaritalStatus",
+    "synonym": "Marital",
+    "translation": "Medeni Durum",
+    "example": "My MaritalStatus is married and I have one child.",
+    "exampleTranslation": "Medeni durumum evli ve bir çocuğum var."
+  },
+  {
+    "term": "Photography",
+    "synonym": "Imaging",
+    "translation": "Fotoğrafçılık",
+    "example": "I practice Photography as a creative outlet during travels.",
+    "exampleTranslation": "Seyahatlerimde fotoğrafçılığı yaratıcı bir uğraş olarak kullanırım."
+  },
+  {
+    "term": "Yoga",
+    "synonym": "Stretching",
+    "translation": "Yoga",
+    "example": "I do Yoga every morning for stress relief.",
+    "exampleTranslation": "Her sabah stresten kurtulmak için yoga yaparım."
+  },
+  {
+    "term": "Coaching",
+    "synonym": "Guidance",
+    "translation": "Koçluk",
+    "example": "I enjoy Coaching the local youth soccer team on weekends.",
+    "exampleTranslation": "Hafta sonları yerel genç futbol takımı koçluğu yapmaktan keyif alırım."
+  },
+  {
+    "term": "Coaching",
+    "synonym": "Guiding",
+    "translation": "Yerel bir genç futbol takımını koçluk yapıyorum.",
+    "example": "I coach a local youth soccer team to support community sports.",
+    "exampleTranslation": "Topluluk sporlarını desteklemek için yerel bir genç futbol takımını koçluk yapıyorum."
+  },
+  {
+    "term": "Introduce",
+    "synonym": "Present",
+    "translation": "Kendinden bahset",
+    "example": "The interviewer said, “Tell me about yourself.”",
+    "exampleTranslation": "Mülakatçı, “Kendinden bahset” dedi."
+  },
+  {
+    "term": "Strengths",
+    "synonym": "Assets",
+    "translation": "Güçlü yönlerin nelerdir?",
+    "example": "He asked, “What are your strengths?”",
+    "exampleTranslation": "O sordu, “Güçlü yönlerin nelerdir?”"
+  },
+  {
+    "term": "Weaknesses",
+    "synonym": "Limitations",
+    "translation": "Zayıf yönlerin nelerdir?",
+    "example": "She asked, “What are your weaknesses?”",
+    "exampleTranslation": "O sordu, “Zayıf yönlerin nelerdir?”"
+  },
+  {
+    "term": "Motivation",
+    "synonym": "Drive",
+    "translation": "Bu işi neden istiyorsun?",
+    "example": "The panel asked, “Why do you want this job?”",
+    "exampleTranslation": "Jüri, “Bu işi neden istiyorsun?” diye sordu."
+  },
+  {
+    "term": "Vision",
+    "synonym": "Projection",
+    "translation": "Beş yıl sonra kendini nerede görüyorsun?",
+    "example": "They asked, “Where do you see yourself in five years?”",
+    "exampleTranslation": "Onlar, “Beş yıl sonra kendini nerede görüyorsun?” diye sordu."
+  },
+  {
+    "term": "Value",
+    "synonym": "Worth",
+    "translation": "Neden seni işe almalıyız?",
+    "example": "Interviewer: “Why should we hire you?”",
+    "exampleTranslation": "Mülakatçı: “Neden seni işe almalıyız?”"
+  },
+  {
+    "term": "Teamwork",
+    "synonym": "Collaboration",
+    "translation": "Takım çalışmasına örnek ver",
+    "example": "She said, “Give an example of teamwork.”",
+    "exampleTranslation": "O, “Takım çalışmasına örnek ver” dedi."
+  },
+  {
+    "term": "Challenge",
+    "synonym": "Obstacle",
+    "translation": "Karşılaştığın bir zorluğu anlat",
+    "example": "He asked, “Describe a challenge you faced at work.”",
+    "exampleTranslation": "O sordu, “İş yerinde karşılaştığın bir zorluğu anlat.”"
+  },
+  {
+    "term": "Stress",
+    "synonym": "Pressure",
+    "translation": "Stresi nasıl yönetirsin?",
+    "example": "They asked, “How do you handle stress?”",
+    "exampleTranslation": "Onlar, “Stresi nasıl yönetirsin?” diye sordu."
+  },
+  {
+    "term": "Achievement",
+    "synonym": "Accomplishment",
+    "translation": "En büyük başarın nedir?",
+    "example": "Interviewer: “What is your greatest achievement?”",
+    "exampleTranslation": "Mülakatçı: “En büyük başarın nedir?”"
+  },
+  {
+    "term": "Pressure",
+    "synonym": "StressTest",
+    "translation": "Baskı altında iyi çalışır mısın?",
+    "example": "She asked, “Do you work well under pressure?”",
+    "exampleTranslation": "O sordu, “Baskı altında iyi çalışır mısın?”"
+  },
+  {
+    "term": "Player",
+    "synonym": "Collaborator",
+    "translation": "Takım oyuncusu musun?",
+    "example": "He asked, “Are you a team player?”",
+    "exampleTranslation": "O sordu, “Takım oyuncusu musun?”"
+  },
+  {
+    "term": "Departure",
+    "synonym": "Resignation",
+    "translation": "Son işinden neden ayrıldın?",
+    "example": "Interviewer: “Why did you leave your last job?”",
+    "exampleTranslation": "Mülakatçı: “Son işinden neden ayrıldın?”"
+  },
+  {
+    "term": "Incentive",
+    "synonym": "Incentive",
+    "translation": "Seni ne motive eder?",
+    "example": "They asked, “What motivates you in your work?”",
+    "exampleTranslation": "Onlar, “İşinde seni ne motive eder?” diye sordu."
+  },
+  {
+    "term": "Prioritization",
+    "synonym": "Ordering",
+    "translation": "Görevleri nasıl önceliklendirirsin?",
+    "example": "He asked, “How do you prioritize tasks?”",
+    "exampleTranslation": "O sordu, “Görevleri nasıl önceliklendirirsin?”"
+  },
+  {
+    "term": "Failure",
+    "synonym": "Setback",
+    "translation": "Başarısız olduğun bir zamanı anlat",
+    "example": "She said, “Tell me about a time you failed.”",
+    "exampleTranslation": "O, “Başarısız olduğun bir zamanı anlat” dedi."
+  },
+  {
+    "term": "Learning",
+    "synonym": "Education",
+    "translation": "Yeni becerileri nasıl öğrenirsin?",
+    "example": "They asked, “How do you learn new skills?”",
+    "exampleTranslation": "Onlar, “Yeni becerileri nasıl öğrenirsin?” diye sordu."
+  },
+  {
+    "term": "Leadership",
+    "synonym": "Stewardship",
+    "translation": "Yönetim tarzın nedir?",
+    "example": "Interviewer: “What is your management style?”",
+    "exampleTranslation": "Mülakatçı: “Yönetim tarzın nedir?”"
+  },
+  {
+    "term": "Overtime",
+    "synonym": "ExtraTime",
+    "translation": "Mesaiye kalabilir misin?",
+    "example": "He asked, “Can you work overtime if needed?”",
+    "exampleTranslation": "O sordu, “Gerekirse mesaiye kalabilir misin?”"
+  },
+  {
+    "term": "Salary",
+    "synonym": "Compensation",
+    "translation": "Maaş beklentilerin nelerdir?",
+    "example": "She asked, “What are your salary expectations?”",
+    "exampleTranslation": "O sordu, “Maaş beklentilerin nelerdir?”"
+  },
+  {
+    "term": "Queries",
+    "synonym": "Questions",
+    "translation": "Bizim için bir sorunuz var mı?",
+    "example": "Interviewer: “Do you have any questions for us?”",
+    "exampleTranslation": "Mülakatçı: “Bizim için bir sorunuz var mı?”"
+  },
+  {
+    "term": "Excitement",
+    "synonym": "Enthusiasm",
+    "translation": "Takıma katılmak için heyecanlıyım",
+    "example": "I said, “I am excited to join the team.”",
+    "exampleTranslation": "Dedim ki, “Takıma katılmak için heyecanlıyım.”"
+  },
+  {
+    "term": "RapidLearner",
+    "synonym": "QuickLearner",
+    "translation": "Hızlı öğrenirim",
+    "example": "I mentioned, “I am a quick learner.”",
+    "exampleTranslation": "Belirttim ki, “Hızlı öğrenirim.”"
+  },
+  {
+    "term": "Autonomy",
+    "synonym": "Independence",
+    "translation": "Bağımsız çalışırım",
+    "example": "I stated, “I work well independently.”",
+    "exampleTranslation": "Belirttim, “Bağımsız çalışırım.”"
+  },
+  {
+    "term": "Response",
+    "synonym": "Feedback",
+    "translation": "Geri bildirime olumlu yaklaşırım",
+    "example": "I explained, “I handle feedback positively.”",
+    "exampleTranslation": "Açıklamıştım, “Geri bildirime olumlu yaklaşırım.”"
+  },
+  {
+    "term": "Flexibility",
+    "synonym": "Adaptability",
+    "translation": "Değişime kolay uyum sağlarım",
+    "example": "I said, “I adapt to change easily.”",
+    "exampleTranslation": "Dedim ki, “Değişime kolay uyum sağlarım.”"
+  },
+  {
+    "term": "Precision",
+    "synonym": "Detail",
+    "translation": "Detay odaklıyım",
+    "example": "I mentioned, “I am detail-oriented.”",
+    "exampleTranslation": "Belirttim, “Detay odaklıyım.”"
+  },
+  {
+    "term": "Timeliness",
+    "synonym": "Punctuality",
+    "translation": "Dakik biriyim",
+    "example": "I said, “I am punctual.”",
+    "exampleTranslation": "Dedim ki, “Dakik biriyim.”"
+  },
+  {
+    "term": "Troubleshooting",
+    "synonym": "ProblemSolving",
+    "translation": "Problem çözmekten keyif alırım",
+    "example": "I stated, “I enjoy problem solving.”",
+    "exampleTranslation": "Belirttim, “Problem çözmekten keyif alırım.”"
+  },
+  {
+    "term": "Fortitude",
+    "synonym": "Resilience",
+    "translation": "Baskı altında iyi çalışırım",
+    "example": "I explained, “I work well under pressure.”",
+    "exampleTranslation": "Açıklamıştım, “Baskı altında iyi çalışırım.”"
+  },
+  {
+    "term": "Initiative",
+    "synonym": "Proactivity",
+    "translation": "Proaktifim",
+    "example": "I mentioned, “I am proactive.”",
+    "exampleTranslation": "Belirttim, “Proaktifim.”"
+  },
+  {
+    "term": "Dialogue",
+    "synonym": "Communication",
+    "translation": "Güçlü iletişim becerilerim var",
+    "example": "I stated, “I have strong communication skills.”",
+    "exampleTranslation": "Belirttim, “Güçlü iletişim becerilerim var.”"
+  },
+  {
+    "term": "Coordination",
+    "synonym": "Organization",
+    "translation": "Organizeyim",
+    "example": "I said, “I am organized.”",
+    "exampleTranslation": "Dedim ki, “Organizeyim.”"
+  },
+  {
+    "term": "Enterprise",
+    "synonym": "Initiative",
+    "translation": "İnisiyatif alırım",
+    "example": "I mentioned, “I take initiative.”",
+    "exampleTranslation": "Belirttim, “İnisiyatif alırım.”"
+  },
+  {
+    "term": "SwiftLearning",
+    "synonym": "FastLearning",
+    "translation": "Çabuk öğrenirim",
+    "example": "I said, “I learn quickly.”",
+    "exampleTranslation": "Dedim ki, “Çabuk öğrenirim.”"
+  },
+  {
+    "term": "Objectives",
+    "synonym": "Goals",
+    "translation": "Hedef odaklıyım",
+    "example": "I explained, “I am goal-oriented.”",
+    "exampleTranslation": "Açıklamıştım, “Hedef odaklıyım.”"
+  },
+  {
+    "term": "Evaluation",
+    "synonym": "Criticism",
+    "translation": "Eleştiriye açık olurum",
+    "example": "I said, “I handle criticism well.”",
+    "exampleTranslation": "Dedim ki, “Eleştiriye açık olurum.”"
+  },
+  {
+    "term": "Tolerance",
+    "synonym": "Patience",
+    "translation": "Sabırlıyım",
+    "example": "I mentioned, “I am patient.”",
+    "exampleTranslation": "Belirttim, “Sabırlıyım.”"
+  },
+  {
+    "term": "Dependability",
+    "synonym": "Reliability",
+    "translation": "Güvenilirim",
+    "example": "I said, “I am reliable.”",
+    "exampleTranslation": "Dedim ki, “Güvenilirim.”"
+  },
+  {
+    "term": "Accountability",
+    "synonym": "Responsibility",
+    "translation": "Sorumluluk alırım",
+    "example": "I explained, “I accept responsibility.”",
+    "exampleTranslation": "Açıklamıştım, “Sorumluluk alırım.”"
+  },
+  {
+    "term": "Transparency",
+    "synonym": "Openness",
+    "translation": "Geri bildirime açığım",
+    "example": "I said, “I am open to feedback.”",
+    "exampleTranslation": "Dedim ki, “Geri bildirime açığım.”"
+  },
+  {
+    "term": "DueDates",
+    "synonym": "Deadlines",
+    "translation": "Teslim tarihlerine uyarım",
+    "example": "I stated, “I respect deadlines.”",
+    "exampleTranslation": "Belirttim, “Teslim tarihlerine uyarım.”"
+  },
+  {
+    "term": "Poise",
+    "synonym": "Composure",
+    "translation": "Stres altında sakin kalırım",
+    "example": "I explained, “I stay calm under stress.”",
+    "exampleTranslation": "Açıklamıştım, “Stres altında sakin kalırım.”"
+  },
+  {
+    "term": "Ethics",
+    "synonym": "Honesty",
+    "translation": "Dürüstlüğe değer veririm",
+    "example": "I said, “I value integrity.”",
+    "exampleTranslation": "Dedim ki, “Dürüstlüğe değer veririm.”"
+  },
+  {
+    "term": "Adaptation",
+    "synonym": "Flexibility",
+    "translation": "Esnekim",
+    "example": "I said, “I am flexible.”",
+    "exampleTranslation": "Dedim ki, “Esnekim.”"
+  },
+  {
+    "term": "Inquisitiveness",
+    "synonym": "Curiosity",
+    "translation": "Öğrenmekten keyif alırım",
+    "example": "I said, “I enjoy learning.”",
+    "exampleTranslation": "Dedim ki, “Öğrenmekten keyif alırım.”"
+  },
+  {
+    "term": "Zest",
+    "synonym": "Enthusiasm",
+    "translation": "Hevesliyim",
+    "example": "I said, “I am enthusiastic.”",
+    "exampleTranslation": "Dedim ki, “Hevesliyim.”"
+  },
+  {
+    "term": "Gravitas",
+    "synonym": "Seriousness",
+    "translation": "Geri bildirimi ciddiye alırım",
+    "example": "I explained, “I take feedback seriously.”",
+    "exampleTranslation": "Açıklamıştım, “Geri bildirimi ciddiye alırım.”"
+  },
+  {
+    "term": "Drive",
+    "synonym": "Ambition",
+    "translation": "Hedef odaklıyım",
+    "example": "I mentioned, “I am goal driven.”",
+    "exampleTranslation": "Belirttim, “Hedef odaklıyım.”"
+  },
+  {
+    "term": "Respect",
+    "synonym": "Esteem",
+    "translation": "Başkalarına saygı duyarım",
+    "example": "I said, “I respect others.”",
+    "exampleTranslation": "Dedim ki, “Başkalarına saygı duyarım.”"
+  },
+  {
+    "term": "Ownership",
+    "synonym": "Stewardship",
+    "translation": "Sahiplenirim",
+    "example": "I said, “I take ownership.”",
+    "exampleTranslation": "Dedim ki, “Sahiplenirim.”"
+  },
+  {
+    "term": "Azure Load Balancer",
+    "synonym": "traffic distributor",
+    "translation": "Azure Yük Dengeleyici",
+    "example": "I configured Azure Load Balancer to distribute traffic evenly across VMs.",
+    "exampleTranslation": "Azure Yük Dengeleyici ile trafiği VM’ler arasında eşit olarak dağıttım."
+  },
+  {
+    "term": "High availability",
+    "synonym": "fault tolerance",
+    "translation": "yüksek kullanılabilirlik",
+    "example": "I implemented high availability using multiple replicas in Kubernetes.",
+    "exampleTranslation": "Kubernetes’te birden fazla replika kullanarak yüksek kullanılabilirlik sağladım."
+  },
+  {
+    "term": "Disaster recovery",
+    "synonym": "backup plan",
+    "translation": "felaket kurtarma",
+    "example": "I planned disaster recovery strategies for our production database.",
+    "exampleTranslation": "Üretim veritabanımız için felaket kurtarma stratejileri planladım."
+  },
+  {
+    "term": "Auto-scaling",
+    "synonym": "dynamic scaling",
+    "translation": "otomatik ölçeklendirme",
+    "example": "I configured auto-scaling rules based on CPU usage metrics.",
+    "exampleTranslation": "CPU kullanım metriklerine göre otomatik ölçeklendirme kuralları tanımladım."
+  },
+  {
+    "term": "Microservices",
+    "synonym": "service-oriented",
+    "translation": "mikroservisler",
+    "example": "I designed microservices with clear bounded contexts.",
+    "exampleTranslation": "Sınırlandırılmış bağlamlar ile mikroservisler tasarladım."
+  },
+  {
+    "term": "Onion architecture",
+    "synonym": "layered architecture",
+    "translation": "soğan mimarisi",
+    "example": "I applied Onion architecture to enforce separation of concerns.",
+    "exampleTranslation": "Sorumluluk ayrımını sağlamak için Soğan mimarisi kullandım."
+  },
+  {
+    "term": "RESTful API",
+    "synonym": "web service",
+    "translation": "RESTful API",
+    "example": "I built a RESTful API to expose user management endpoints.",
+    "exampleTranslation": "Kullanıcı yönetimi uç noktalarını sunmak için RESTful API oluşturdum."
+  },
+  {
+    "term": "Entity Framework Core",
+    "synonym": "EF Core",
+    "translation": "Entity Framework Core",
+    "example": "I used EF Core migrations to manage database schema changes.",
+    "exampleTranslation": "Veritabanı şema değişikliklerini yönetmek için EF Core migration kullandım."
+  },
+  {
+    "term": "Repository pattern",
+    "synonym": "data abstraction",
+    "translation": "depo deseni",
+    "example": "I implemented the Repository pattern to abstract data access logic.",
+    "exampleTranslation": "Veri erişim mantığını soyutlamak için Depo desenini uyguladım."
+  },
+  {
+    "term": "Unit testing",
+    "synonym": "module testing",
+    "translation": "birim testi",
+    "example": "I wrote unit tests with xUnit for critical service classes.",
+    "exampleTranslation": "Kritik servis sınıfları için xUnit ile birim testleri yazdım."
+  },
+  {
+    "term": "Integration testing",
+    "synonym": "system testing",
+    "translation": "entegrasyon testi",
+    "example": "I performed integration tests to validate API workflows.",
+    "exampleTranslation": "API iş akışlarını doğrulamak için entegrasyon testleri yaptım."
+  },
+  {
+    "term": "Docker",
+    "synonym": "containerization",
+    "translation": "Docker",
+    "example": "I containerized services using Docker Compose.",
+    "exampleTranslation": "Docker Compose kullanarak servisleri konteynerleştirdim."
+  },
+  {
+    "term": "CI/CD",
+    "synonym": "pipeline automation",
+    "translation": "CI/CD",
+    "example": "I configured CI/CD pipelines in Azure DevOps.",
+    "exampleTranslation": "Azure DevOps’ta CI/CD boru hatları kurdum."
+  },
+  {
+    "term": "Azure DevOps",
+    "synonym": "Microsoft DevOps",
+    "translation": "Azure DevOps",
+    "example": "I managed work items and releases in Azure DevOps.",
+    "exampleTranslation": "Azure DevOps’ta iş öğelerini ve sürümleri yönettim."
+  },
+  {
+    "term": "GitHub Actions",
+    "synonym": "GitHub CI",
+    "translation": "GitHub Actions",
+    "example": "I automated deployments using GitHub Actions workflows.",
+    "exampleTranslation": "GitHub Actions iş akışlarıyla dağıtımları otomatikleştirdim."
+  },
+  {
+    "term": "Swagger",
+    "synonym": "OpenAPI",
+    "translation": "Swagger",
+    "example": "I documented APIs with Swagger UI for easy testing.",
+    "exampleTranslation": "Kolay test için Swagger UI ile API’leri dokümante ettim."
+  },
+  {
+    "term": "OAuth2",
+    "synonym": "authorization framework",
+    "translation": "OAuth2",
+    "example": "I implemented OAuth2 for secure user authentication.",
+    "exampleTranslation": "Güvenli kullanıcı doğrulaması için OAuth2 uyguladım."
+  },
+  {
+    "term": "JWT",
+    "synonym": "token",
+    "translation": "JWT",
+    "example": "I secured endpoints using JWT tokens.",
+    "exampleTranslation": "Uç noktaları JWT token’larıyla güvence altına aldım."
+  },
+  {
+    "term": "Hangfire",
+    "synonym": "background jobs",
+    "translation": "Hangfire",
+    "example": "I scheduled recurring tasks with Hangfire.",
+    "exampleTranslation": "Hangfire ile tekrarlayan görevler planladım."
+  },
+  {
+    "term": "RabbitMQ",
+    "synonym": "message broker",
+    "translation": "RabbitMQ",
+    "example": "I integrated RabbitMQ for asynchronous messaging.",
+    "exampleTranslation": "Asenkron mesajlaşma için RabbitMQ entegre ettim."
+  },
+  {
+    "term": "Redis",
+    "synonym": "in-memory cache",
+    "translation": "Redis",
+    "example": "I used Redis to cache frequently accessed data.",
+    "exampleTranslation": "Sık erişilen verileri önbelleğe almak için Redis kullandım."
+  },
+  {
+    "term": "SQL Server",
+    "synonym": "RDBMS",
+    "translation": "SQL Server",
+    "example": "I wrote complex queries in SQL Server for reporting.",
+    "exampleTranslation": "Raporlama için SQL Server’da karmaşık sorgular yazdım."
+  },
+  {
+    "term": "NoSQL",
+    "synonym": "non-relational",
+    "translation": "NoSQL",
+    "example": "I evaluated NoSQL options but chose SQL Server for consistency.",
+    "exampleTranslation": "Tutarlılık için NoSQL seçeneklerini değerlendirdim ama SQL Server’ı seçtim."
+  },
+  {
+    "term": "Azure Functions",
+    "synonym": "serverless functions",
+    "translation": "Azure Functions",
+    "example": "I developed serverless functions with Azure Functions.",
+    "exampleTranslation": "Azure Functions ile sunucusuz fonksiyonlar geliştirdim."
+  },
+  {
+    "term": "Kubernetes",
+    "synonym": "container orchestration",
+    "translation": "Kubernetes",
+    "example": "I deployed microservices to a Kubernetes cluster.",
+    "exampleTranslation": "Mikroservisleri bir Kubernetes kümesine dağıttım."
+  },
+  {
+    "term": "Helm",
+    "synonym": "package manager",
+    "translation": "Helm",
+    "example": "I used Helm charts to manage Kubernetes releases.",
+    "exampleTranslation": "Kubernetes sürümlerini yönetmek için Helm chart’ları kullandım."
+  },
+  {
+    "term": "Prometheus",
+    "synonym": "monitoring system",
+    "translation": "Prometheus",
+    "example": "I set up Prometheus to scrape application metrics.",
+    "exampleTranslation": "Uygulama metriklerini toplamak için Prometheus kurdum."
+  },
+  {
+    "term": "Grafana",
+    "synonym": "dashboard",
+    "translation": "Grafana",
+    "example": "I created Grafana dashboards for real-time monitoring.",
+    "exampleTranslation": "Gerçek zamanlı izleme için Grafana panoları oluşturdum."
+  },
+  {
+    "term": "ELK Stack",
+    "synonym": "logging suite",
+    "translation": "ELK Stack",
+    "example": "I implemented ELK Stack for centralized logging.",
+    "exampleTranslation": "Merkezi loglama için ELK Stack uyguladım."
+  },
+  {
+    "term": "Serilog",
+    "synonym": "structured logging",
+    "translation": "Serilog",
+    "example": "I configured Serilog for structured log output.",
+    "exampleTranslation": "Yapılandırılmış log çıktısı için Serilog yapılandırdım."
+  },
+  {
+    "term": "NLog",
+    "synonym": "logging framework",
+    "translation": "NLog",
+    "example": "I used NLog for file and database logging.",
+    "exampleTranslation": "Dosya ve veritabanı loglaması için NLog kullandım."
+  },
+  {
+    "term": "xUnit",
+    "synonym": "test framework",
+    "translation": "xUnit",
+    "example": "I implemented xUnit tests for all service methods.",
+    "exampleTranslation": "Tüm servis metotları için xUnit testleri uyguladım."
+  },
+  {
+    "term": "Selenium",
+    "synonym": "web automation",
+    "translation": "Selenium",
+    "example": "I wrote Selenium scripts for UI regression tests.",
+    "exampleTranslation": "UI regresyon testleri için Selenium betikleri yazdım."
+  },
+  {
+    "term": "Postman",
+    "synonym": "API client",
+    "translation": "Postman",
+    "example": "I tested APIs using Postman collections.",
+    "exampleTranslation": "API’leri Postman koleksiyonlarıyla test ettim."
+  },
+  {
+    "term": "Visual Studio",
+    "synonym": "IDE",
+    "translation": "Visual Studio",
+    "example": "I develop and debug applications in Visual Studio.",
+    "exampleTranslation": "Uygulamaları Visual Studio’da geliştirip hata ayıklıyorum."
+  },
+  {
+    "term": "achievement",
+    "synonym": "accomplishment",
+    "translation": "başarı",
+    "example": "My greatest achievement was launching the new API ahead of schedule.",
+    "exampleTranslation": "En büyük başarım, yeni API’yı planın önünde yayınlamaktı."
+  },
+  {
+    "term": "adaptability",
+    "synonym": "flexibility",
+    "translation": "uyum sağlama yeteneği",
+    "example": "I demonstrated adaptability by learning new frameworks quickly.",
+    "exampleTranslation": "Yeni çerçeveleri hızlıca öğrenerek uyum sağlama yeteneğimi gösterdim."
+  },
+  {
+    "term": "analysis",
+    "synonym": "examination",
+    "translation": "analiz",
+    "example": "I conducted a performance analysis to optimize query speed.",
+    "exampleTranslation": "Sorgu hızını optimize etmek için performans analizi yaptım."
+  },
+  {
+    "term": "attention",
+    "synonym": "focus",
+    "translation": "dikkat",
+    "example": "I pay close attention to code quality and best practices.",
+    "exampleTranslation": "Kod kalitesine ve en iyi uygulamalara yakından dikkat ederim."
+  },
+  {
+    "term": "background",
+    "synonym": "experience",
+    "translation": "geçmiş",
+    "example": "My background includes work with microservices and containerization.",
+    "exampleTranslation": "Geçmişimde mikroservisler ve konteynerleştirme çalışmaları var."
+  },
+  {
+    "term": "challenge",
+    "synonym": "difficulty",
+    "translation": "zorluk",
+    "example": "I enjoy tackling technical challenges head-on.",
+    "exampleTranslation": "Teknik zorluklarla doğrudan uğraşmaktan hoşlanırım."
+  },
+  {
+    "term": "collaboration",
+    "synonym": "teamwork",
+    "translation": "işbirliği",
+    "example": "Effective collaboration with designers improved our UI flow.",
+    "exampleTranslation": "Tasarımcılarla etkili işbirliği, UI akışımızı geliştirdi."
+  },
+  {
+    "term": "communication",
+    "synonym": "dialogue",
+    "translation": "iletişim",
+    "example": "Clear communication is essential in agile environments.",
+    "exampleTranslation": "Çevik ortamlarda net iletişim çok önemlidir."
+  },
+  {
+    "term": "commitment",
+    "synonym": "dedication",
+    "translation": "adama",
+    "example": "I show strong commitment to meeting project deadlines.",
+    "exampleTranslation": "Proje teslim tarihlerine uyma konusunda güçlü bir adanmışlık gösteririm."
+  },
+  {
+    "term": "complexity",
+    "synonym": "intricacy",
+    "translation": "karmaşıklık",
+    "example": "I simplified system complexity by refactoring core modules.",
+    "exampleTranslation": "Ana modülleri yeniden düzenleyerek sistem karmaşıklığını basitleştirdim."
+  },
+  {
+    "term": "conflict",
+    "synonym": "disagreement",
+    "translation": "çatışma",
+    "example": "I resolved team conflict by facilitating open discussions.",
+    "exampleTranslation": "Açık tartışmalar düzenleyerek takım çatışmasını çözdüm."
+  },
+  {
+    "term": "contribution",
+    "synonym": "input",
+    "translation": "katkı",
+    "example": "My contribution to the project saved 20% in server costs.",
+    "exampleTranslation": "Projeye katkım sunucu maliyetlerinde %20 tasarruf sağladı."
+  },
+  {
+    "term": "creativity",
+    "synonym": "innovation",
+    "translation": "yaratıcılık",
+    "example": "I used creativity to design an intuitive dashboard.",
+    "exampleTranslation": "Sezgisel bir gösterge paneli tasarlamak için yaratıcılığımı kullandım."
+  },
+  {
+    "term": "deadline",
+    "synonym": "due date",
+    "translation": "son teslim tarihi",
+    "example": "I always deliver features before the deadline.",
+    "exampleTranslation": "Özellikleri her zaman son teslim tarihinden önce teslim ederim."
+  },
+  {
+    "term": "decision",
+    "synonym": "choice",
+    "translation": "karar",
+    "example": "I made a data-driven decision to switch databases.",
+    "exampleTranslation": "Veri odaklı bir karar alarak veritabanlarını değiştirdim."
+  },
+  {
+    "term": "delivery",
+    "synonym": "deployment",
+    "translation": "teslim",
+    "example": "Continuous delivery pipelines ensured smooth releases.",
+    "exampleTranslation": "Sürekli teslim boru hatları, sorunsuz sürümleri sağladı."
+  },
+  {
+    "term": "dependable",
+    "synonym": "reliable",
+    "translation": "güvenilir",
+    "example": "I am known for being a dependable team member.",
+    "exampleTranslation": "Güvenilir bir takım üyesi olarak tanınırım."
+  },
+  {
+    "term": "design",
+    "synonym": "plan",
+    "translation": "tasarım",
+    "example": "I helped design the microservice architecture.",
+    "exampleTranslation": "Mikroservis mimarisinin tasarımına yardımcı oldum."
+  },
+  {
+    "term": "detail",
+    "synonym": "particular",
+    "translation": "ayrıntı",
+    "example": "I focus on every detail when writing code.",
+    "exampleTranslation": "Kod yazarken her ayrıntıya odaklanırım."
+  },
+  {
+    "term": "development",
+    "synonym": "growth",
+    "translation": "geliştirme",
+    "example": "I lead the development of client-facing portals.",
+    "exampleTranslation": "Müşteri odaklı portalların geliştirilmesine liderlik ettim."
+  },
+  {
+    "term": "efficiency",
+    "synonym": "productivity",
+    "translation": "verimlilik",
+    "example": "I increased system efficiency by parallelizing tasks.",
+    "exampleTranslation": "Görevleri paralel işleyerek sistem verimliliğini artırdım."
+  },
+  {
+    "term": "feedback",
+    "synonym": "response",
+    "translation": "geri bildirim",
+    "example": "I actively seek feedback to improve my work.",
+    "exampleTranslation": "İşimizi geliştirmek için aktif olarak geri bildirim isterim."
+  },
+  {
+    "term": "flexibility",
+    "synonym": "adaptability",
+    "translation": "esneklik",
+    "example": "My flexibility allowed me to take on different roles.",
+    "exampleTranslation": "Esnekliğim, farklı rolleri üstlenmeme izin verdi."
+  },
+  {
+    "term": "goal",
+    "synonym": "objective",
+    "translation": "hedef",
+    "example": "My goal is to enhance user satisfaction by 15%.",
+    "exampleTranslation": "Hedefim kullanıcı memnuniyetini %15 artırmak."
+  },
+  {
+    "term": "growth",
+    "synonym": "development",
+    "translation": "büyüme",
+    "example": "I support team growth through mentoring.",
+    "exampleTranslation": "Mentorluk yaparak takım büyümesini desteklerim."
+  },
+  {
+    "term": "implementation",
+    "synonym": "execution",
+    "translation": "uygulama",
+    "example": "I oversaw the implementation of OAuth2 security.",
+    "exampleTranslation": "OAuth2 güvenliğinin uygulanmasını denetledim."
+  },
+  {
+    "term": "initiative",
+    "synonym": "enterprise",
+    "translation": "girişim",
+    "example": "I took the initiative to automate testing workflows.",
+    "exampleTranslation": "Test iş akışlarını otomatikleştirmek için inisiyatif aldım."
+  },
+  {
+    "term": "innovation",
+    "synonym": "creativity",
+    "translation": "yenilik",
+    "example": "I foster innovation by introducing new coding standards.",
+    "exampleTranslation": "Yeni kodlama standartları getirerek yeniliği teşvik ederim."
+  },
+  {
+    "term": "integration",
+    "synonym": "combination",
+    "translation": "entegrasyon",
+    "example": "I handled integration between multiple microservices.",
+    "exampleTranslation": "Birden fazla mikroservis arasındaki entegrasyonu yönettim."
+  },
+  {
+    "term": "issue",
+    "synonym": "problem",
+    "translation": "sorun",
+    "example": "I quickly resolved production issues under pressure.",
+    "exampleTranslation": "Baskı altında üretim sorunlarını hızlıca çözdüm."
+  },
+  {
+    "term": "leadership",
+    "synonym": "guidance",
+    "translation": "liderlik",
+    "example": "My leadership helped the team meet tight deadlines.",
+    "exampleTranslation": "Liderliğim takımın sıkı teslim tarihlerini karşılamasına yardımcı oldu."
+  },
+  {
+    "term": "learning",
+    "synonym": "education",
+    "translation": "öğrenme",
+    "example": "I value continuous learning through online courses.",
+    "exampleTranslation": "Çevrimiçi kurslarla sürekli öğrenmeye değer veririm."
+  },
+  {
+    "term": "management",
+    "synonym": "administration",
+    "translation": "yönetim",
+    "example": "I have experience in project management and planning.",
+    "exampleTranslation": "Proje yönetimi ve planlama deneyimim var."
+  },
+  {
+    "term": "motivation",
+    "synonym": "drive",
+    "translation": "motivasyon",
+    "example": "My motivation comes from solving complex challenges.",
+    "exampleTranslation": "Motivasyonum karmaşık zorlukları çözmekten gelir."
+  },
+  {
+    "term": "objective",
+    "synonym": "goal",
+    "translation": "amaç",
+    "example": "My first objective was to reduce server costs.",
+    "exampleTranslation": "İlk amacım sunucu maliyetlerini düşürmekti."
+  },
+  {
+    "term": "organization",
+    "synonym": "structure",
+    "translation": "organizasyon",
+    "example": "I improved team organization with clear workflows.",
+    "exampleTranslation": "Net iş akışlarıyla takım organizasyonunu geliştirdim."
+  },
+  {
+    "term": "partner",
+    "synonym": "collaborator",
+    "translation": "ortak",
+    "example": "I worked as a partner with QA to ensure quality.",
+    "exampleTranslation": "Kaliteyi sağlamak için QA ile ortak olarak çalıştım."
+  },
+  {
+    "term": "performance",
+    "synonym": "efficiency",
+    "translation": "performans",
+    "example": "I monitored performance metrics daily.",
+    "exampleTranslation": "Performans metriklerini günlük olarak izledim."
+  },
+  {
+    "term": "priority",
+    "synonym": "precedence",
+    "translation": "öncelik",
+    "example": "I set task priorities based on project needs.",
+    "exampleTranslation": "Proje ihtiyaçlarına göre görev önceliklerini belirledim."
+  },
+  {
+    "term": "problem",
+    "synonym": "issue",
+    "translation": "sorun",
+    "example": "I approach each problem methodically.",
+    "exampleTranslation": "Her soruna metodik bir şekilde yaklaşırım."
+  },
+  {
+    "term": "process",
+    "synonym": "procedure",
+    "translation": "süreç",
+    "example": "I documented the deployment process for clarity.",
+    "exampleTranslation": "Netlik için dağıtım sürecini dokümante ettim."
+  },
+  {
+    "term": "productivity",
+    "synonym": "efficiency",
+    "translation": "verimlilik",
+    "example": "I improved team productivity with automation.",
+    "exampleTranslation": "Otomasyon ile takım verimliliğini artırdım."
+  },
+  {
+    "term": "quality",
+    "synonym": "standard",
+    "translation": "kalite",
+    "example": "I ensure quality through rigorous testing.",
+    "exampleTranslation": "Titiz testlerle kaliteyi garanti ederim."
+  },
+  {
+    "term": "reliability",
+    "synonym": "dependability",
+    "translation": "güvenilirlik",
+    "example": "Our system’s reliability increased after my optimizations.",
+    "exampleTranslation": "Optimizasyonlarımdan sonra sistemimizin güvenilirliği arttı."
+  },
+  {
+    "term": "requirement",
+    "synonym": "need",
+    "translation": "gereksinim",
+    "example": "I gathered requirements from stakeholders effectively.",
+    "exampleTranslation": "Paydaşlardan gereksinimleri etkili şekilde topladım."
+  },
+  {
+    "term": "responsibility",
+    "synonym": "duty",
+    "translation": "sorumluluk",
+    "example": "I took responsibility for the project’s success.",
+    "exampleTranslation": "Projenin başarısının sorumluluğunu üstlendim."
+  },
+  {
+    "term": "result",
+    "synonym": "outcome",
+    "translation": "sonuç",
+    "example": "The result was a 25% increase in user engagement.",
+    "exampleTranslation": "Sonuç, kullanıcı etkileşiminde %25 artış oldu."
+  },
+  {
+    "term": "review",
+    "synonym": "evaluation",
+    "translation": "inceleme",
+    "example": "I conducted code reviews weekly.",
+    "exampleTranslation": "Her hafta kod incelemeleri yaptım."
+  },
+  {
+    "term": "risk",
+    "synonym": "hazard",
+    "translation": "risk",
+    "example": "I assessed project risks during planning.",
+    "exampleTranslation": "Planlama sırasında proje risklerini değerlendirdim."
+  },
+  {
+    "term": "schedule",
+    "synonym": "timetable",
+    "translation": "takvim",
+    "example": "I created a realistic schedule for deliverables.",
+    "exampleTranslation": "Teslimatlar için gerçekçi bir takvim oluşturdum."
+  },
+  {
+    "term": "scope",
+    "synonym": "extent",
+    "translation": "kapsam",
+    "example": "I defined project scope with clear boundaries.",
+    "exampleTranslation": "Proje kapsamını net sınırlarla tanımladım."
+  },
+  {
+    "term": "skill",
+    "synonym": "ability",
+    "translation": "beceri",
+    "example": "My strongest skill is problem solving.",
+    "exampleTranslation": "En güçlü becerim problem çözme."
+  },
+  {
+    "term": "solution",
+    "synonym": "resolution",
+    "translation": "çözüm",
+    "example": "I delivered a solution that cut costs by 30%.",
+    "exampleTranslation": "Maliyetleri %30 düşüren bir çözüm sundum."
+  },
+  {
+    "term": "strategy",
+    "synonym": "plan",
+    "translation": "strateji",
+    "example": "I developed a testing strategy for microservices.",
+    "exampleTranslation": "Mikroservisler için bir test stratejisi geliştirdim."
+  },
+  {
+    "term": "strength",
+    "synonym": "asset",
+    "translation": "güçlü yön",
+    "example": "My strength lies in quickly learning new technologies.",
+    "exampleTranslation": "Güçlü yönüm yeni teknolojileri hızla öğrenmek."
+  },
+  {
+    "term": "success",
+    "synonym": "victory",
+    "translation": "başarı",
+    "example": "Our success came from teamwork and communication.",
+    "exampleTranslation": "Başarımız işbirliği ve iletişimden geldi."
+  },
+  {
+    "term": "support",
+    "synonym": "assist",
+    "translation": "destek",
+    "example": "I support junior developers with mentorship.",
+    "exampleTranslation": "Genç geliştiricilere mentorluk ile destek olurum."
+  },
+  {
+    "term": "team",
+    "synonym": "group",
+    "translation": "takım",
+    "example": "I enjoy working in a collaborative team environment.",
+    "exampleTranslation": "İşbirlikçi bir takım ortamında çalışmaktan hoşlanırım."
+  },
+  {
+    "term": "timeline",
+    "synonym": "schedule",
+    "translation": "zaman çizelgesi",
+    "example": "I maintained a clear timeline for each sprint.",
+    "exampleTranslation": "Her sprint için net bir zaman çizelgesi tuttum."
+  },
+  {
+    "term": "training",
+    "synonym": "instruction",
+    "translation": "eğitim",
+    "example": "I organized training sessions for new hires.",
+    "exampleTranslation": "Yeni işe alınanlar için eğitim oturumları düzenledim."
+  },
+  {
+    "term": "trust",
+    "synonym": "confidence",
+    "translation": "güven",
+    "example": "My team trusts me to make critical decisions.",
+    "exampleTranslation": "Takımım kritik kararları almam konusunda bana güvenir."
+  },
+  {
+    "term": "value",
+    "synonym": "worth",
+    "translation": "değer",
+    "example": "I bring value by optimizing system architecture.",
+    "exampleTranslation": "Sistem mimarisini optimize ederek değer katarım."
+  },
+  {
+    "term": "vision",
+    "synonym": "insight",
+    "translation": "vizyon",
+    "example": "I share a vision for scalable and maintainable code.",
+    "exampleTranslation": "Ölçeklenebilir ve sürdürülebilir kod için bir vizyon paylaşıyorum."
+  },
+  {
+    "term": "weakness",
+    "synonym": "shortcoming",
+    "translation": "zayıf yön",
+    "example": "One weakness I am improving is public speaking.",
+    "exampleTranslation": "Geliştirdiğim zayıf yönlerden biri topluluk önünde konuşma."
+  },
+  {
+    "term": "workflow",
+    "synonym": "process",
+    "translation": "iş akışı",
+    "example": "I streamlined the workflow using automation tools.",
+    "exampleTranslation": "Otomasyon araçları kullanarak iş akışını kolaylaştırdım."
+  },
+  {
+    "term": "workload",
+    "synonym": "burden",
+    "translation": "iş yükü",
+    "example": "I balanced my workload by delegating tasks.",
+    "exampleTranslation": "Görevleri devrederek iş yükümü dengeledim."
+  },
+  {
+    "term": "writing",
+    "synonym": "authoring",
+    "translation": "yazma",
+    "example": "I excel at writing clear technical documentation.",
+    "exampleTranslation": "Net teknik dokümantasyon yazmada iyiyim."
+  },
+  {
+    "term": "microservices",
+    "synonym": "service-oriented",
+    "translation": "mikroservisler",
+    "example": "I designed a microservices architecture for the reservation system.",
+    "exampleTranslation": "Rezervasyon sistemi için mikroservis mimarisi tasarladım."
+  },
+  {
+    "term": "Onion architecture",
+    "synonym": "layered architecture",
+    "translation": "Soğan mimarisi",
+    "example": "I implemented Onion architecture to separate concerns in the project.",
+    "exampleTranslation": "Projede sorumlulukları ayırmak için Soğan mimarisi uyguladım."
+  },
+  {
+    "term": "RESTful API",
+    "synonym": "web service",
+    "translation": "RESTful API",
+    "example": "I built a RESTful API for user authentication.",
+    "exampleTranslation": "Kullanıcı kimlik doğrulaması için RESTful API oluşturdum."
+  },
+  {
+    "term": "Entity Framework Core",
+    "synonym": "EF Core",
+    "translation": "Entity Framework Core",
+    "example": "I used Entity Framework Core for data access in the application.",
+    "exampleTranslation": "Uygulamada veri erişimi için Entity Framework Core kullandım."
+  },
+  {
+    "term": "Repository pattern",
+    "synonym": "data layer",
+    "translation": "Depo deseni",
+    "example": "I applied the Repository pattern to abstract data operations.",
+    "exampleTranslation": "Veri işlemlerini soyutlamak için Depo desenini uyguladım."
+  },
+  {
+    "term": "Unit testing",
+    "synonym": "component testing",
+    "translation": "birim testi",
+    "example": "I wrote unit tests with xUnit for critical modules.",
+    "exampleTranslation": "Kritik modüller için xUnit ile birim testleri yazdım."
+  },
+  {
+    "term": "Integration testing",
+    "synonym": "system testing",
+    "translation": "entegrasyon testi",
+    "example": "I performed integration testing to validate API endpoints.",
+    "exampleTranslation": "API uç noktalarını doğrulamak için entegrasyon testi yaptım."
+  },
+  {
+    "term": "Docker",
+    "synonym": "containerization",
+    "translation": "Docker",
+    "example": "I containerized the application using Docker images.",
+    "exampleTranslation": "Uygulamayı Docker imajları ile konteynerleştirdim."
+  },
+  {
+    "term": "CI/CD",
+    "synonym": "pipeline automation",
+    "translation": "CI/CD",
+    "example": "I set up CI/CD pipelines in Azure DevOps.",
+    "exampleTranslation": "Azure DevOps’ta CI/CD boru hatları kurdum."
+  },
+  {
+    "term": "Azure DevOps",
+    "synonym": "Microsoft DevOps",
+    "translation": "Azure DevOps",
+    "example": "I managed work items and pipelines in Azure DevOps.",
+    "exampleTranslation": "Azure DevOps’ta iş öğelerini ve boru hatlarını yönettim."
+  },
+  {
+    "term": "GitHub Actions",
+    "synonym": "GitHub CI",
+    "translation": "GitHub Actions",
+    "example": "I automated deployments using GitHub Actions workflows.",
+    "exampleTranslation": "GitHub Actions iş akışlarıyla dağıtımları otomatikleştirdim."
+  },
+  {
+    "term": "Swagger",
+    "synonym": "OpenAPI",
+    "translation": "Swagger",
+    "example": "I documented APIs with Swagger UI for easy testing.",
+    "exampleTranslation": "Kolay test için Swagger UI ile API’leri dokümante ettim."
+  },
+  {
+    "term": "OAuth2",
+    "synonym": "authorization framework",
+    "translation": "OAuth2",
+    "example": "I implemented OAuth2 for secure user login.",
+    "exampleTranslation": "Güvenli kullanıcı girişi için OAuth2 uyguladım."
+  },
+  {
+    "term": "JWT",
+    "synonym": "token",
+    "translation": "JWT",
+    "example": "I secured endpoints using JWT tokens.",
+    "exampleTranslation": "Uç noktaları JWT token’larıyla güvence altına aldım."
+  },
+  {
+    "term": "Hangfire",
+    "synonym": "background jobs",
+    "translation": "Hangfire",
+    "example": "I scheduled recurring tasks with Hangfire.",
+    "exampleTranslation": "Hangfire ile tekrarlayan görevler planladım."
+  },
+  {
+    "term": "RabbitMQ",
+    "synonym": "message broker",
+    "translation": "RabbitMQ",
+    "example": "I integrated RabbitMQ for asynchronous messaging.",
+    "exampleTranslation": "Asenkron mesajlaşma için RabbitMQ entegre ettim."
+  },
+  {
+    "term": "Redis",
+    "synonym": "in-memory cache",
+    "translation": "Redis",
+    "example": "I used Redis to cache frequently accessed data.",
+    "exampleTranslation": "Sık erişilen verileri önbelleğe almak için Redis kullandım."
+  },
+  {
+    "term": "SQL Server",
+    "synonym": "RDBMS",
+    "translation": "SQL Server",
+    "example": "I wrote complex queries in SQL Server for reporting.",
+    "exampleTranslation": "Raporlama için SQL Server’da karmaşık sorgular yazdım."
+  },
+  {
+    "term": "NoSQL",
+    "synonym": "non-relational",
+    "translation": "NoSQL",
+    "example": "I evaluated NoSQL options but chose SQL Server for consistency.",
+    "exampleTranslation": "Tutarlılık için NoSQL seçeneklerini değerlendirdim ama SQL Server’ı seçtim."
+  },
+  {
+    "term": "load balancing",
+    "synonym": "traffic distribution",
+    "translation": "yük dengeleme",
+    "example": "I configured load balancing across multiple servers to improve availability.",
+    "exampleTranslation": "Kullanılabilirliği artırmak için birden fazla sunucu arasında yük dengeleme yapılandırdım."
+  },
+  {
+    "term": "scale-out",
+    "synonym": "horizontal scaling",
+    "translation": "yatay ölçeklendirme",
+    "example": "I implemented scale-out strategies to handle increased user load.",
+    "exampleTranslation": "Artan kullanıcı yükünü yönetmek için yatay ölçeklendirme stratejileri uyguladım."
+  },
+  {
+    "term": "scale-up",
+    "synonym": "vertical scaling",
+    "translation": "dikey ölçeklendirme",
+    "example": "I chose scale-up for the database server to boost performance.",
+    "exampleTranslation": "Performansı artırmak için veritabanı sunucusunda dikey ölçeklendirme seçtim."
+  },
+  {
+    "term": "cache invalidation",
+    "synonym": "cache refresh",
+    "translation": "önbellek geçersiz kılma",
+    "example": "I automated cache invalidation when data changed.",
+    "exampleTranslation": "Veri değiştiğinde önbelleği otomatik olarak geçersiz kıldım."
+  },
+  {
+    "term": "session management",
+    "synonym": "state handling",
+    "translation": "oturum yönetimi",
+    "example": "I improved session management using secure cookies.",
+    "exampleTranslation": "Güvenli çerezler kullanarak oturum yönetimini geliştirdim."
+  },
+  {
+    "term": "authentication",
+    "synonym": "identity verification",
+    "translation": "kimlik doğrulama",
+    "example": "I implemented multi-factor authentication for user login.",
+    "exampleTranslation": "Kullanıcı girişi için çok faktörlü kimlik doğrulama uyguladım."
+  },
+  {
+    "term": "authorization",
+    "synonym": "permission control",
+    "translation": "yetkilendirme",
+    "example": "I set up role-based authorization in our application.",
+    "exampleTranslation": "Uygulamamızda role-dayalı yetkilendirme yapılandırdım."
+  },
+  {
+    "term": "encryption",
+    "synonym": "ciphering",
+    "translation": "şifreleme",
+    "example": "I enforced AES encryption for sensitive data at rest.",
+    "exampleTranslation": "Hassas veriler için dinlenme halinde AES şifrelemesini zorunlu kıldım."
+  },
+  {
+    "term": "tokenization",
+    "synonym": "data masking",
+    "translation": "tokenlaştırma",
+    "example": "I used tokenization to protect credit card numbers.",
+    "exampleTranslation": "Kredi kartı numaralarını korumak için tokenlaştırma kullandım."
+  },
+  {
+    "term": "session timeout",
+    "synonym": "idle expiration",
+    "translation": "oturum zaman aşımı",
+    "example": "I configured a session timeout after 15 minutes of inactivity.",
+    "exampleTranslation": "15 dakikalık hareketsizlikten sonra oturum zaman aşımı yapılandırdım."
+  },
+  {
+    "term": "audit logging",
+    "synonym": "change tracking",
+    "translation": "denetim kaydı",
+    "example": "I implemented audit logging to track user actions.",
+    "exampleTranslation": "Kullanıcı eylemlerini izlemek için denetim kaydı uyguladım."
+  },
+  {
+    "term": "pen testing",
+    "synonym": "vulnerability assessment",
+    "translation": "sızma testi",
+    "example": "I scheduled quarterly pen testing for our systems.",
+    "exampleTranslation": "Sistemlerimiz için üç aylık sızma testleri planladım."
+  },
+  {
+    "term": "zero trust",
+    "synonym": "never trust, always verify",
+    "translation": "sıfır güven",
+    "example": "I advocated a zero trust model for internal services.",
+    "exampleTranslation": "Dahili servisler için sıfır güven modelini savundum."
+  },
+  {
+    "term": "API gateway",
+    "synonym": "request router",
+    "translation": "API geçidi",
+    "example": "I deployed an API gateway to centralize routing rules.",
+    "exampleTranslation": "Yönlendirme kurallarını merkezileştirmek için bir API geçidi dağıttım."
+  },
+  {
+    "term": "circuit breaker",
+    "synonym": "fault isolation",
+    "translation": "devre kesici",
+    "example": "I integrated a circuit breaker to prevent cascading failures.",
+    "exampleTranslation": "Kademeli arızaları önlemek için bir devre kesici entegre ettim."
+  },
+  {
+    "term": "rate limiting",
+    "synonym": "throttling",
+    "translation": "oran sınırlama",
+    "example": "I implemented rate limiting to protect our API.",
+    "exampleTranslation": "API’mızı korumak için oran sınırlama uyguladım."
+  },
+  {
+    "term": "retry policy",
+    "synonym": "retry mechanism",
+    "translation": "yeniden deneme politikası",
+    "example": "I configured a retry policy for transient errors.",
+    "exampleTranslation": "Geçici hatalar için bir yeniden deneme politikası yapılandırdım."
+  },
+  {
+    "term": "circuit reset",
+    "synonym": "breaker reset",
+    "translation": "devre sıfırlama",
+    "example": "I configured automatic circuit reset after a cooldown period.",
+    "exampleTranslation": "Soğuma süresi sonra otomatik devre sıfırlama yapılandırdım."
+  },
+  {
+    "term": "health check",
+    "synonym": "status probe",
+    "translation": "sağlık kontrolü",
+    "example": "I added health check endpoints for load balancer monitoring.",
+    "exampleTranslation": "Yük dengeleyici izleme için sağlık kontrol uç noktaları ekledim."
+  },
+  {
+    "term": "blue-green deployment",
+    "synonym": "traffic shifting",
+    "translation": "mavi-yeşil dağıtım",
+    "example": "I set up a blue-green deployment pipeline to minimize downtime.",
+    "exampleTranslation": "Kesinti süresini en aza indirmek için mavi-yeşil dağıtım boru hattı kurdum."
+  },
+  {
+    "term": "canary release",
+    "synonym": "incremental rollout",
+    "translation": "kanarya sürümü",
+    "example": "I orchestrated a canary release for the new feature.",
+    "exampleTranslation": "Yeni özellik için kanarya sürümünü koordine ettim."
+  },
+  {
+    "term": "feature toggle",
+    "synonym": "feature flag",
+    "translation": "özellik bayrağı",
+    "example": "I implemented feature toggles to control beta features.",
+    "exampleTranslation": "Beta özellikleri kontrol etmek için özellik bayrakları uyguladım."
+  },
+  {
+    "term": "dark launch",
+    "synonym": "stealth release",
+    "translation": "koyu lansman",
+    "example": "I performed a dark launch to test under load.",
+    "exampleTranslation": "Yük altında test etmek için koyu lansman yaptım."
+  },
+  {
+    "term": "rollout plan",
+    "synonym": "deployment plan",
+    "translation": "yayın planı",
+    "example": "I drafted a rollout plan for the mobile app update.",
+    "exampleTranslation": "Mobil uygulama güncellemesi için yayın planı hazırladım."
+  },
+  {
+    "term": "rollback plan",
+    "synonym": "revert strategy",
+    "translation": "geri alım planı",
+    "example": "I documented a rollback plan in case of failure.",
+    "exampleTranslation": "Arıza durumunda geri alım planını dokümante ettim."
+  },
+  {
+    "term": "service mesh",
+    "synonym": "distributed proxy",
+    "translation": "servis ağı",
+    "example": "I deployed a service mesh for fine-grained traffic control.",
+    "exampleTranslation": "Ayrıntılı trafik kontrolü için bir servis ağı dağıttım."
+  },
+  {
+    "term": "sidecar pattern",
+    "synonym": "auxiliary container",
+    "translation": "yan araba deseni",
+    "example": "I used the sidecar pattern for logging and monitoring.",
+    "exampleTranslation": "Günlük kaydı ve izleme için yan araba desenini kullandım."
+  },
+  {
+    "term": "observability",
+    "synonym": "visibility",
+    "translation": "gözlemlenebilirlik",
+    "example": "I improved observability with structured logs and metrics.",
+    "exampleTranslation": "Yapılandırılmış loglar ve metriklerle gözlemlenebilirliği artırdım."
+  },
+  {
+    "term": "distributed tracing",
+    "synonym": "end-to-end tracing",
+    "translation": "dağıtık izleme",
+    "example": "I implemented distributed tracing with OpenTelemetry.",
+    "exampleTranslation": "OpenTelemetry ile dağıtık izleme uyguladım."
+  },
+  {
+    "term": "span",
+    "synonym": "trace segment",
+    "translation": "iz segmenti",
+    "example": "I added spans to trace slow transactions.",
+    "exampleTranslation": "Yavaş işlemleri izlemek için iz segmentleri ekledim."
+  },
+  {
+    "term": "trace sampling",
+    "synonym": "sampling rate",
+    "translation": "iz örnekleme",
+    "example": "I configured trace sampling to reduce overhead.",
+    "exampleTranslation": "Yükü azaltmak için iz örneklemeyi yapılandırdım."
+  },
+  {
+    "term": "alert threshold",
+    "synonym": "trigger point",
+    "translation": "uyarı eşiği",
+    "example": "I set alert thresholds for CPU and memory usage.",
+    "exampleTranslation": "CPU ve bellek kullanımı için uyarı eşikleri belirledim."
+  },
+  {
+    "term": "incident response",
+    "synonym": "emergency handling",
+    "translation": "olay müdahalesi",
+    "example": "I led the incident response for a production outage.",
+    "exampleTranslation": "Üretim kesintisi için olay müdahalesine liderlik ettim."
+  },
+  {
+    "term": "runbook",
+    "synonym": "playbook",
+    "translation": "operasyon el kitabı",
+    "example": "I authored a runbook for common recovery tasks.",
+    "exampleTranslation": "Yaygın kurtarma görevleri için bir operasyon el kitabı hazırladım."
+  },
+  {
+    "term": "postmortem",
+    "synonym": "retrospective report",
+    "translation": "kaza incelemesi",
+    "example": "I facilitated a postmortem after service disruption.",
+    "exampleTranslation": "Servis kesintisi sonrası kaza incelemesi düzenledim."
+  },
+  {
+    "term": "SLA",
+    "synonym": "service agreement",
+    "translation": "hizmet düzeyi anlaşması",
+    "example": "I reviewed our SLA to ensure compliance.",
+    "exampleTranslation": "Uyumluluğu sağlamak için SLA’mızı gözden geçirdim."
+  },
+  {
+    "term": "SLO",
+    "synonym": "objective measure",
+    "translation": "hizmet hedefi",
+    "example": "I defined SLOs for API latency and uptime.",
+    "exampleTranslation": "API gecikmesi ve çalışma süresi için hizmet hedefleri belirledim."
+  },
+  {
+    "term": "error budget",
+    "synonym": "tolerance allowance",
+    "translation": "hata bütçesi",
+    "example": "I calculated our error budget for this quarter.",
+    "exampleTranslation": "Bu çeyrek için hata bütçemizi hesapladım."
+  },
+  {
+    "term": "pilot group",
+    "synonym": "test cohort",
+    "translation": "pilot grup",
+    "example": "I released the feature to a pilot group first.",
+    "exampleTranslation": "Özelliği önce bir pilot gruba sundum."
+  },
+  {
+    "term": "customer feedback",
+    "synonym": "user input",
+    "translation": "müşteri geri bildirimi",
+    "example": "I gathered customer feedback after the beta release.",
+    "exampleTranslation": "Beta sürümden sonra müşteri geri bildirimi topladım."
+  },
+  {
+    "term": "usability testing",
+    "synonym": "user testing",
+    "translation": "kullanılabilirlik testi",
+    "example": "I conducted usability testing with end users.",
+    "exampleTranslation": "Son kullanıcılarla kullanılabilirlik testi yaptım."
+  },
+  {
+    "term": "A/B testing",
+    "synonym": "split testing",
+    "translation": "A/B testi",
+    "example": "I ran A/B tests to compare two UI versions.",
+    "exampleTranslation": "İki UI sürümünü karşılaştırmak için A/B testleri yaptım."
+  },
+  {
+    "term": "heatmap",
+    "synonym": "click map",
+    "translation": "ısıl harita",
+    "example": "I analyzed user behavior with a heatmap tool.",
+    "exampleTranslation": "Kullanıcı davranışını ısıl harita aracıyla analiz ettim."
+  },
+  {
+    "term": "funnel analysis",
+    "synonym": "conversion path",
+    "translation": "huni analizi",
+    "example": "I performed funnel analysis to identify drop-off points.",
+    "exampleTranslation": "Terk noktalarını belirlemek için huni analizi yaptım."
+  },
+  {
+    "term": "cohort analysis",
+    "synonym": "group analysis",
+    "translation": "kohort analizi",
+    "example": "I used cohort analysis to track retention rates.",
+    "exampleTranslation": "Tutundurma oranlarını izlemek için kohort analizi kullandım."
+  },
+  {
+    "term": "dashboarding",
+    "synonym": "reporting",
+    "translation": "gösterge paneli oluşturma",
+    "example": "I built dashboards to visualize key metrics.",
+    "exampleTranslation": "Ana metrikleri görselleştirmek için gösterge panelleri oluşturdum."
+  },
+  {
+    "term": "data pipeline",
+    "synonym": "ETL process",
+    "translation": "veri hattı",
+    "example": "I designed a data pipeline with Azure Data Factory.",
+    "exampleTranslation": "Azure Data Factory ile bir veri hattı tasarladım."
+  }
+]

@@ -14,7 +14,7 @@ if (!connStr) {
 
 async function main() {
   // JSON dosyasını oku
-  const file = path.join(__dirname, 'backend', 'data', 'flashcards-100.json');
+  const file = path.join(__dirname, 'backend', 'data', 'flashcards2-100.json');
   const raw = await fs.readFile(file, 'utf-8');
   const cards = JSON.parse(raw);
 
